@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F7F5FA;
+  --surface: #FFFFFF;
+  --brand-primary: #8B7BA8;
+  --brand-accent: #E8918A;
+  --text-primary: #3A3542;
+  --text-muted: #8B8494;
+  --risk-low: #7FA98D;
+  --risk-medium: #E8A94C;
+  --risk-high: #D2685F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-bg text-text-primary min-h-screen;
+  background-color: var(--bg);
+  color: var(--text-primary);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4D0DB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4BFCB;
+}
+
+/* Focus styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-brand-primary ring-offset-2 ring-offset-bg;
+}
+
+/* Selection */
+::selection {
+  background: var(--brand-primary);
+  color: white;
+}
+
+/* Utility classes for risk colors */
+.risk-low { color: var(--risk-low); }
+.risk-medium { color: var(--risk-medium); }
+.risk-high { color: var(--risk-high); }
+
+.bg-risk-low { background-color: var(--risk-low); }
+.bg-risk-medium { background-color: var(--risk-medium); }
+.bg-risk-high { background-color: var(--risk-high); }
+
+/* Card component */
+.card {
+  @apply bg-surface rounded-card shadow-card transition-shadow duration-200;
+}
+
+.card:hover {
+  @apply shadow-card-hover;
+}
+
+/* Button components */
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-bg disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-primary {
+  @apply btn bg-brand-primary text-white hover:bg-[#7a6a9a] focus:ring-brand-primary;
+}
+
+.btn-secondary {
+  @apply btn bg-brand-accent text-white hover:bg-[#d47d77] focus:ring-brand-accent;
+}
+
+.btn-outline {
+  @apply btn border-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white focus:ring-brand-primary;
+}
+
+.btn-ghost {
+  @apply btn text-text-primary hover:bg-[#EDEAF1] focus:ring-text-muted;
+}
+
+.btn-danger {
+  @apply btn bg-risk-high text-white hover:bg-[#c05a52] focus:ring-risk-high;
+}
+
+/* Input components */
+.input {
+  @apply w-full px-3 py-2 rounded-lg border border-[#D4D0DB] bg-surface text-text-primary placeholder:text-text-muted 
+         focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent transition-all duration-150;
+}
+
+/* Badge components */
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-low { @apply badge bg-risk-low/15 text-risk-low; }
+.badge-medium { @apply badge bg-risk-medium/15 text-risk-medium; }
+.badge-high { @apply badge bg-risk-high/15 text-risk-high; }
+
+/* Avatar */
+.avatar {
+  @apply w-10 h-10 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary font-medium text-sm;
+}
+
+/* Page container */
+.page-container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+}
+
+/* Section header */
+.section-header {
+  @apply flex items-center justify-between mb-6;
+}
+
+.section-title {
+  @apply text-2xl font-semibold text-text-primary;
+}
+
+/* Toast */
+.toast {
+  @apply fixed bottom-6 right-6 z-50 px-4 py-3 rounded-lg shadow-lg animate-slide-in max-w-sm;
+}
+
+.toast-success { @apply toast bg-risk-low text-white; }
+.toast-error { @apply toast bg-risk-high text-white; }
+.toast-info { @apply toast bg-brand-primary text-white; }
+
+@keyframes slide-in {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}

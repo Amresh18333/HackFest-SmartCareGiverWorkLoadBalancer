@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "224fca98-e34f-4fff-8b99-d075f7283638",
+    "join_code": "4D9B493C",
+    "id": "aab80a88-a8b2-4b9a-b94b-27d60ea74f3a",
+    "created_at": "2026-08-31T21:29:25.022058"
+  },
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "febf11fa-ba41-4a56-b3a3-5b86377184d8",
+    "join_code": "5098341F",
+    "id": "586fbaa9-2bc1-441b-b8eb-c7998a696351",
+    "created_at": "2026-08-31T21:39:27.756773"
+  },
+  {
+    "name": "Care Team",
+    "manager_id": "7400ad3a-1642-4d16-af24-4da61743fc78",
+    "join_code": "D3A7D823",
+    "id": "e47e325b-bc71-46d3-93cf-f270de0f258b",
+    "created_at": "2026-08-31T22:53:42.296555"
+  },
+  {
+    "name": "Test Team",
+    "manager_id": "e718af72-c67d-46fd-8129-cae4f113a977",
+    "join_code": "B46C2585",
+    "id": "07daa6e2-2ab6-484d-99e3-1c82b1e90ce8",
+    "created_at": "2026-09-01T09:37:27.600514"
+  },
+  {
+    "name": "Test Team",
+    "manager_id": "babcef11-011c-4fb8-aa3f-69ddc8ba3cd0",
+    "join_code": "20C5B35C",
+    "id": "de84855f-60af-454e-96c4-e91cff45532f",
+    "created_at": "2026-09-01T09:42:01.262143"
+  },
+  {
+    "name": "Care Team",
+    "manager_id": "da8318f5-40a4-4993-830b-b5a1532f3c7a",
+    "join_code": "BE74D7C1",
+    "id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "created_at": "2026-09-01T09:50:02.988783"
+  }
+]

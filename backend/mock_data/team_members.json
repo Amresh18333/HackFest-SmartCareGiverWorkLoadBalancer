@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Alex Chen",
+    "avatar_initials": "AC",
+    "timezone": "America/Los_Angeles",
+    "id": "059d8c1c-1190-47b4-b0ae-fc67d2d2311c",
+    "updated_at": "2026-09-01T09:50:03.289523",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "role": "member"
+  },
+  {
+    "name": "Jordan Kim",
+    "avatar_initials": "JK",
+    "timezone": "America/New_York",
+    "id": "c2c9d1c6-038d-458a-ad41-ec650d2f153e",
+    "updated_at": "2026-09-01T09:50:03.247365",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "role": "member"
+  },
+  {
+    "name": "Sam Rivera",
+    "avatar_initials": "SR",
+    "timezone": "America/Chicago",
+    "id": "e9c763b9-c98f-42e1-be2b-8c55f2435709",
+    "updated_at": "2026-09-01T09:50:03.247370",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "role": "member"
+  },
+  {
+    "name": "Taylor Moore",
+    "avatar_initials": "TM",
+    "timezone": "America/Denver",
+    "id": "d68805c8-2f42-4bbe-8d0c-ea4dcc73d77d",
+    "updated_at": "2026-09-01T09:50:03.247374",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "role": "member"
+  },
+  {
+    "name": "Casey Brooks",
+    "avatar_initials": "CB",
+    "timezone": "America/Toronto",
+    "id": "c5c5bea2-60a4-4ca5-bfe7-74d39f9cf36e",
+    "updated_at": "2026-09-01T09:50:03.247378",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "role": "member"
+  },
+  {
+    "email": "manager@example.com",
+    "name": "Manager User",
+    "avatar_initials": "MU",
+    "timezone": "UTC",
+    "team_name": "Care Team Alpha",
+    "password_hash": "pbkdf2_sha256$f3bab33e1fefddf797fbb7e496ec324e$52b95ba65922803794f4ba94282648e5d302489558e31c83f7833cba5779efae",
+    "role": "member",
+    "id": "224fca98-e34f-4fff-8b99-d075f7283638",
+    "created_at": "2026-08-31T21:29:25.021428",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247383"
+  },
+  {
+    "email": "manager2@example.com",
+    "name": "Manager User",
+    "avatar_initials": "MU",
+    "timezone": "UTC",
+    "team_name": "Care Team Alpha",
+    "password_hash": "pbkdf2_sha256$5e25c50a1c0b70b8963e302b3b8070a9$829308e527b6010642fa9ab0ebbb224a2ff2b872bfa57ff1fb4c15c1e6ec33d2",
+    "role": "member",
+    "id": "febf11fa-ba41-4a56-b3a3-5b86377184d8",
+    "created_at": "2026-08-31T21:39:27.743570",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247387"
+  },
+  {
+    "email": "manager@test.com",
+    "name": "Manager",
+    "avatar_initials": "M",
+    "timezone": "UTC",
+    "team_name": "Care Team",
+    "password_hash": "pbkdf2_sha256$866e6f0d6b02ca4d0e227ac87fa53d31$d63d44b79b85edd24bedc8a91fccc2d087b8716f6d5bd577ec748779621282ac",
+    "role": "member",
+    "id": "7400ad3a-1642-4d16-af24-4da61743fc78",
+    "created_at": "2026-08-31T22:53:42.283410",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247391"
+  },
+  {
+    "email": "mgr2@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "team_name": "Test Team",
+    "password_hash": "pbkdf2_sha256$a0c015054f541b4d11c99c73d5dbc9ae$416032d45019cd1e30039de943e589d42de04bae4b6694f3d9d82a5b0e5ac597",
+    "role": "member",
+    "id": "e718af72-c67d-46fd-8129-cae4f113a977",
+    "created_at": "2026-09-01T09:37:27.592821",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247394"
+  },
+  {
+    "email": "mgr3@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "team_name": "Test Team",
+    "password_hash": "pbkdf2_sha256$d0c3a0dbed2a7e605c637711885fbb90$63228b9b3136a0c2fdf53a39d3813fa80370f8506ab37358667597dca85de399",
+    "role": "member",
+    "id": "babcef11-011c-4fb8-aa3f-69ddc8ba3cd0",
+    "created_at": "2026-09-01T09:42:01.244369",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247397"
+  },
+  {
+    "email": "mgr@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "team_name": "Care Team",
+    "password_hash": "pbkdf2_sha256$4a63e51fdb6167b33715fd4386366a8d$17e8654d5fe667b6899dac534f65adf83dd7c7f3b72247832e0c114d2ab21be5",
+    "role": "member",
+    "id": "da8318f5-40a4-4993-830b-b5a1532f3c7a",
+    "created_at": "2026-09-01T09:50:02.973573",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247401"
+  },
+  {
+    "email": "mem@test.com",
+    "name": "Member",
+    "avatar_initials": "MB",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$91ff4370b7c925ed7a8086e3e30c2552$98c00a0f8997df94ea2f819dd635ed4ba7ae276a728eed91141863313670a429",
+    "role": "member",
+    "id": "6d6f9a57-202e-4d2f-a6e9-9b655f416040",
+    "created_at": "2026-09-01T09:50:03.196476",
+    "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
+    "updated_at": "2026-09-01T09:50:03.247404"
+  }
+]
