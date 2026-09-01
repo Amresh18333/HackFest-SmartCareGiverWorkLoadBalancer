@@ -7,13 +7,21 @@ sb = get_supabase()
 sb_admin = get_supabase_admin()
 
 # --- Team Members ---
-def get_all_members() -> List[Dict]:
-    res = sb.table("team_members").select("*").order("name").execute()
-    return res.data
+MEMBER_PUBLIC_FIELDS = "id,name,avatar_initials,timezone,role,team_id,email"
+
+def get_all_members(team_id: Optional[str] = None) -> List[Dict]:
+    query = sb.table("team_members").select(MEMBER_PUBLIC_FIELDS).order("name")
+    if team_id:
+        query = query.eq("team_id", team_id)
+    res = query.execute()
+    return res.data or []
 
 def get_member(member_id: str) -> Optional[Dict]:
-    res = sb.table("team_members").select("*").eq("id", member_id).single().execute()
-    return res.data
+    try:
+        res = sb.table("team_members").select(MEMBER_PUBLIC_FIELDS).eq("id", member_id).single().execute()
+        return res.data
+    except Exception:
+        return None
 
 # --- Tasks ---
 def get_member_tasks(member_id: str, status: Optional[str] = None) -> List[Dict]:
@@ -137,8 +145,9 @@ def find_rebalance_candidate(overloaded_member_id: str) -> Optional[Dict]:
     task_to_reassign = incomplete[0]
     
     # Find teammate with lowest current estimated_hours on active tasks
-    members = get_all_members()
-    other_members = [m for m in members if m["id"] != overloaded_member_id]
+    overloaded = get_member(overloaded_member_id)
+    members = get_all_members(team_id=overloaded.get("team_id") if overloaded else None)
+    other_members = [m for m in members if m["id"] != overloaded_member_id and m.get("role") != "manager"]
     
     best_member = None
     min_hours = float("inf")

@@ -78,7 +78,7 @@ export function MemberDetail() {
     return (
       <div className="page-container text-center py-12">
         <p className="text-risk-high mb-4">Failed to load member: {error || 'Not found'}</p>
-        <Link to="/" className="btn-outline inline-block">← Back to team</Link>
+        <Link to="/manager" className="btn-outline inline-block">← Back to team</Link>
       </div>
     )
   }
@@ -93,7 +93,7 @@ export function MemberDetail() {
       
       {/* Header */}
       <header className="mb-8">
-        <Link to="/" className="btn-ghost mb-4 inline-flex items-center gap-2">
+        <Link to="/manager" className="btn-ghost mb-4 inline-flex items-center gap-2">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M19 12H5M12 19l-7-7 7-7" />
           </svg>
@@ -180,7 +180,10 @@ export function MemberDetail() {
               )}
               
               <div className="mt-6 pt-4 border-t border-[#EDEAF1]">
-                <h3 className="text-sm font-medium text-text-primary mb-3">Current Signals</h3>
+                <h3 className="text-sm font-medium text-text-primary mb-3">Workload signals</h3>
+                <p className="text-xs text-text-muted mb-3">
+                  Personal check-ins, late-night activity, and response times stay private to the caregiver.
+                </p>
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   {member.tasks && (
                     <>

@@ -4,9 +4,9 @@ import { apiGetMyTasks, apiUpdateTaskStatus, apiSubmitSignals, apiGetMyRisk, api
 import { RiskScoreDisplay } from '../components/RiskScoreDisplay'
 import { RiskTrendChart } from '../components/RiskTrendChart'
 import { TaskList } from '../components/TaskList'
-import { Avatar } from '../components/Avatar'
 import { Badge } from '../components/Badge'
 import { Button } from '../components/Button'
+import { AppHeader } from '../components/AppHeader'
 import { ToastContainer, showToast } from '../components/Toast'
 
 export function MemberDashboard() {
@@ -16,6 +16,7 @@ export function MemberDashboard() {
   const [team, setTeam] = useState(null)
   const [loading, setLoading] = useState(true)
   const [signalLoading, setSignalLoading] = useState(false)
+  const [joinCode, setJoinCode] = useState('')
   
   const [signals, setSignals] = useState({
     self_checkin_score: 3,
@@ -90,13 +91,20 @@ export function MemberDashboard() {
     }
   }
   
-  const handleJoinTeam = async (joinCode) => {
+  const handleJoinTeam = async (code) => {
+    const value = (code || joinCode || '').trim().toUpperCase()
+    if (!value) {
+      showToast('Enter a join code', 'error')
+      return
+    }
     try {
-      await apiJoinTeam(joinCode)
+      await apiJoinTeam(value)
       showToast('Joined team successfully!', 'success')
+      setJoinCode('')
       await refreshTeam()
       const teamData = await apiGetMyTeam()
       setTeam(teamData)
+      await refreshMember()
     } catch (err) {
       showToast(err.message, 'error')
     }
@@ -127,31 +135,26 @@ export function MemberDashboard() {
     <div className="page-container">
       <ToastContainer />
       
-      {/* Header */}
+      <AppHeader
+        title={`Good ${new Date().getHours() < 12 ? 'morning' : 'afternoon'}, ${member?.name?.split(' ')[0] || 'there'}`}
+        subtitle="Your personal workload dashboard — check-ins are only visible to you"
+      />
+
       <header className="mb-8">
         <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-4">
-            <Avatar initials={member?.avatar_initials || '?'} size="xl" />
-            <div>
-              <h1 className="text-2xl font-bold text-text-primary">
-                Good {new Date().getHours() < 12 ? 'morning' : 'afternoon'}, {member?.name?.split(' ')[0] || 'there'}
-              </h1>
-              <p className="text-text-muted">Your personal workload dashboard</p>
-            </div>
-          </div>
-          
           {!team?.team && (
-            <div className="card p-4 bg-brand-primary/5 border-l-4 border-brand-primary max-w-md">
+            <div className="card p-4 bg-brand-primary/5 border-l-4 border-brand-primary w-full max-w-md">
               <p className="text-sm text-text-muted mb-2">Not part of a team yet?</p>
               <div className="flex gap-2">
                 <input
                   type="text"
                   placeholder="Enter join code (e.g. ABC123EF)"
-                  className="input flex-1 text-uppercase"
+                  className="input flex-1 uppercase"
                   maxLength={8}
-                  id="join-code-input"
+                  value={joinCode}
+                  onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
                 />
-                <Button onClick={() => handleJoinTeam(document.getElementById('join-code-input')?.value)}>
+                <Button onClick={() => handleJoinTeam()}>
                   Join Team
                 </Button>
               </div>
@@ -371,11 +374,12 @@ export function MemberDashboard() {
                 <input
                   type="text"
                   placeholder="ABC123EF"
-                  className="input text-uppercase text-center"
+                  className="input uppercase text-center"
                   maxLength={8}
-                  id="join-code-input"
+                  value={joinCode}
+                  onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
                 />
-                <Button onClick={() => handleJoinTeam(document.getElementById('join-code-input')?.value)}>
+                <Button onClick={() => handleJoinTeam()}>
                   Join
                 </Button>
               </div>

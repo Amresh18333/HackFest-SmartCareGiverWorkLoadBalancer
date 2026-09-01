@@ -3,64 +3,46 @@ import { api } from './api'
 export const auth = {
   token: null,
   member: null,
-  
+
   setToken(token) {
     this.token = token
-    localStorage.setItem('auth_token', token)
+    if (token) localStorage.setItem('auth_token', token)
+    else localStorage.removeItem('auth_token')
   },
-  
+
   setMember(member) {
     this.member = member
-    localStorage.setItem('auth_member', JSON.stringify(member))
+    if (member) localStorage.setItem('auth_member', JSON.stringify(member))
+    else localStorage.removeItem('auth_member')
   },
-  
+
   loadFromStorage() {
     this.token = localStorage.getItem('auth_token')
     const memberStr = localStorage.getItem('auth_member')
     if (memberStr) {
-      this.member = JSON.parse(memberStr)
+      try {
+        this.member = JSON.parse(memberStr)
+      } catch {
+        this.member = null
+      }
     }
-    return this.token && this.member
+    return !!(this.token && this.member)
   },
-  
+
   clear() {
     this.token = null
     this.member = null
     localStorage.removeItem('auth_token')
     localStorage.removeItem('auth_member')
   },
-  
+
   isAuthenticated() {
     return !!this.token && !!this.member
   },
-  
+
   isManager() {
     return this.member?.role === 'manager'
   },
-  
-  async login(email, password) {
-    const data = await api.login(email, password)
-    this.setToken(data.access_token)
-    this.setMember(data.member)
-    return data
-  },
-  
-  async register(memberData) {
-    const data = await api.register(memberData)
-    this.setToken(data.access_token)
-    this.setMember(data.member)
-    return data
-  },
-  
-  async getCurrentMember() {
-    const data = await api.getCurrentMember()
-    this.setMember(data)
-    return data
-  },
-  
-  logout() {
-    this.clear()
-  }
 }
 
 export async function apiLogin(email, password) {

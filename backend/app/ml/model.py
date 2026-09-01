@@ -14,6 +14,17 @@ FEATURE_LABELS = {
     "self_checkin_score": "low self check-in score"
 }
 
+PERSONAL_DRIVER_KEYS = {
+    "self_checkin_score",
+    "late_night_activity_flag",
+    "avg_response_latency_mins",
+}
+PERSONAL_DRIVER_LABELS = {FEATURE_LABELS[k] for k in PERSONAL_DRIVER_KEYS}
+
+def manager_visible_drivers(drivers: List[str]) -> List[str]:
+    """Managers see workload drivers only — not personal check-in signals."""
+    return [d for d in (drivers or []) if d not in PERSONAL_DRIVER_LABELS and d not in PERSONAL_DRIVER_KEYS]
+
 def format_driver(driver_key: str) -> str:
     return FEATURE_LABELS.get(driver_key, driver_key.replace("_", " "))
 

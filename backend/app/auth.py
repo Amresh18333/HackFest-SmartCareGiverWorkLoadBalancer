@@ -8,10 +8,11 @@ import secrets
 from datetime import datetime, timedelta
 from typing import Optional, Dict, Any
 from jose import JWTError, jwt
+from app.config import settings
 from app.db.supabase_client import get_supabase_admin
 
 # JWT settings
-SECRET_KEY = os.getenv("JWT_SECRET_KEY", "hackfest-secret-change-in-production")
+SECRET_KEY = settings.jwt_secret_key
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 7 days
 
@@ -44,31 +45,53 @@ def decode_token(token: str) -> Optional[Dict]:
     except JWTError:
         return None
 
-def get_member_by_email(email: str) -> Optional[Dict]:
-    sb = get_supabase_admin()
-    res = sb.table("team_members").select("*").eq("email", email).single().execute()
-    data = res.data
+def _first_or_none(data):
     if isinstance(data, list):
         return data[0] if data else None
     return data
+
+def get_member_by_email(email: str) -> Optional[Dict]:
+    sb = get_supabase_admin()
+    try:
+        res = sb.table("team_members").select("*").eq("email", email).single().execute()
+        return _first_or_none(res.data)
+    except Exception:
+        return None
 
 def get_member_by_id(member_id: str) -> Optional[Dict]:
     sb = get_supabase_admin()
-    res = sb.table("team_members").select("*").eq("id", member_id).single().execute()
-    data = res.data
-    if isinstance(data, list):
-        return data[0] if data else None
-    return data
+    try:
+        res = sb.table("team_members").select("*").eq("id", member_id).single().execute()
+        return _first_or_none(res.data)
+    except Exception:
+        return None
 
 def get_team_by_join_code(join_code: str) -> Optional[Dict]:
     sb = get_supabase_admin()
-    res = sb.table("teams").select("*").eq("join_code", join_code).single().execute()
-    return res.data
+    try:
+        res = sb.table("teams").select("*").eq("join_code", join_code.upper()).single().execute()
+        return res.data
+    except Exception:
+        return None
 
 def get_team_by_manager(manager_id: str) -> Optional[Dict]:
     sb = get_supabase_admin()
-    res = sb.table("teams").select("*").eq("manager_id", manager_id).single().execute()
-    return res.data
+    try:
+        res = sb.table("teams").select("*").eq("manager_id", manager_id).single().execute()
+        return res.data
+    except Exception:
+        return None
+
+def public_member(member: Dict) -> Dict:
+    return {
+        "id": member["id"],
+        "name": member["name"],
+        "email": member.get("email"),
+        "avatar_initials": member.get("avatar_initials"),
+        "timezone": member.get("timezone", "UTC"),
+        "role": member.get("role", "member"),
+        "team_id": member.get("team_id"),
+    }
 
 def generate_join_code() -> str:
     return str(uuid.uuid4())[:8].upper()
@@ -124,14 +147,12 @@ def authenticate_member(email: str, password: str) -> Optional[Dict]:
 def create_manager(member_data: Dict) -> Dict:
     """Create a manager with a new team."""
     sb = get_supabase_admin()
+    team_name = member_data.pop("team_name", None)
     member_data["password_hash"] = hash_password(member_data.pop("password"))
     member_data["email"] = member_data["email"].lower()
     member_data["role"] = "manager"
     res = sb.table("team_members").insert(member_data).execute()
     member = res.data[0]
-    
-    # Create team for manager
-    team_name = member_data.get("team_name", f"{member['name']}'s Team")
-    create_team(member["id"], team_name)
-    
-    return member
+
+    create_team(member["id"], team_name or f"{member['name']}'s Team")
+    return get_member_by_id(member["id"]) or member

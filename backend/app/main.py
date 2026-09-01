@@ -1,17 +1,16 @@
 """
 Minimal API using Starlette directly (no FastAPI/pydantic internals).
 """
-import json
-import os
-from typing import Dict, List, Optional
+from datetime import datetime
+from typing import Dict, List, Optional, Tuple
 from starlette.applications import Starlette
-from starlette.responses import JSONResponse, PlainTextResponse
-from starlette.routing import Route, Mount
+from starlette.responses import JSONResponse
+from starlette.routing import Route
 from starlette.middleware.cors import CORSMiddleware
 from starlette.requests import Request
 
 from app.config import settings
-from app.ml.model import predict_risk, get_top_drivers, format_driver
+from app.ml.model import predict_risk, get_top_drivers, format_driver, manager_visible_drivers
 from app.db.queries import (
     get_all_members, get_member, get_member_tasks, get_latest_signals,
     get_latest_score, get_member_scores, compute_and_store_risk_score,
@@ -20,10 +19,32 @@ from app.db.queries import (
 )
 from app.db.supabase_client import get_supabase_admin
 from app.auth import (
-    create_access_token, decode_token, authenticate_member, 
+    create_access_token, decode_token, authenticate_member,
     create_member, get_member_by_id, get_member_by_email,
-    create_team, join_team, get_team_by_manager, create_manager
+    create_team, join_team, create_manager, public_member
 )
+
+
+def require_user(request: Request) -> Tuple[Optional[Dict], Optional[JSONResponse]]:
+    auth_header = request.headers.get("Authorization")
+    if not auth_header or not auth_header.startswith("Bearer "):
+        return None, JSONResponse({"detail": "Not authenticated"}, status_code=401)
+    payload = decode_token(auth_header.split(" ", 1)[1])
+    if not payload:
+        return None, JSONResponse({"detail": "Invalid token"}, status_code=401)
+    member = get_member_by_id(payload.get("sub"))
+    if not member:
+        return None, JSONResponse({"detail": "Member not found"}, status_code=404)
+    return member, None
+
+
+def require_manager(request: Request) -> Tuple[Optional[Dict], Optional[JSONResponse]]:
+    member, err = require_user(request)
+    if err:
+        return None, err
+    if member.get("role") != "manager":
+        return None, JSONResponse({"detail": "Manager access required"}, status_code=403)
+    return member, None
 
 # --- Health ---
 async def health(request: Request):
@@ -47,17 +68,13 @@ async def login(request: Request):
         return JSONResponse({"detail": "Invalid credentials"}, status_code=401)
     
     role = member.get("role", "member")
-    token = create_access_token({"sub": member["id"], "email": member["email"], "role": role})
+    token = create_access_token({"sub": member["id"], "email": member.get("email"), "role": role})
+    pub = public_member(member)
     return JSONResponse({
         "access_token": token,
         "token_type": "bearer",
-        "member": {
-            "id": member["id"],
-            "name": member["name"],
-            "email": member["email"],
-            "avatar_initials": member["avatar_initials"],
-            "role": "member"
-        }
+        "member": pub,
+        "redirect": "/manager" if role == "manager" else "/me"
     })
 
 async def register(request: Request):
@@ -100,43 +117,29 @@ async def register(request: Request):
         }
         member = create_member(member_data)
         role = "member"
-    
+        join_code = body.get("join_code")
+        if join_code:
+            try:
+                join_team(member["id"], str(join_code).upper())
+                member = get_member_by_id(member["id"]) or member
+            except ValueError as e:
+                return JSONResponse({"detail": str(e)}, status_code=400)
+
     token = create_access_token({"sub": member["id"], "email": member["email"], "role": role})
+    pub = public_member(member)
+    pub["role"] = role
     return JSONResponse({
         "access_token": token,
         "token_type": "bearer",
-        "member": {
-            "id": member["id"],
-            "name": member["name"],
-            "email": member["email"],
-            "avatar_initials": member["avatar_initials"],
-            "role": role
-        }
+        "member": pub,
+        "redirect": "/manager" if role == "manager" else "/me"
     }, status_code=201)
 
 async def get_current_member(request: Request):
-    auth_header = request.headers.get("Authorization")
-    if not auth_header or not auth_header.startswith("Bearer "):
-        return JSONResponse({"detail": "Not authenticated"}, status_code=401)
-    
-    token = auth_header.split(" ")[1]
-    payload = decode_token(token)
-    if not payload:
-        return JSONResponse({"detail": "Invalid token"}, status_code=401)
-    
-    member = get_member_by_id(payload["sub"])
-    if not member:
-        return JSONResponse({"detail": "Member not found"}, status_code=404)
-    
-    return JSONResponse({
-        "id": member["id"],
-        "name": member["name"],
-        "email": member["email"],
-        "avatar_initials": member["avatar_initials"],
-        "timezone": member["timezone"],
-        "role": member.get("role", "member"),
-        "team_id": member.get("team_id")
-    })
+    member, err = require_user(request)
+    if err:
+        return err
+    return JSONResponse(public_member(member))
 
 # --- Team Management ---
 async def create_my_team(request: Request):
@@ -252,50 +255,63 @@ async def predict(request: Request):
 
 # --- Team ---
 async def list_members(request: Request):
-    members = get_all_members()
+    manager, err = require_manager(request)
+    if err:
+        return err
+
+    team_id = manager.get("team_id")
+    members = [m for m in get_all_members(team_id=team_id) if m.get("role") != "manager"]
     cards = []
-    
+
     for m in members:
         scores = get_member_scores(m["id"], days=7)
         trend = [{"date": s["date"], "score": s["score"]} for s in scores]
-        
+
         latest = get_latest_score(m["id"])
         current_score = latest["score"] if latest else 0
-        
+        drivers = manager_visible_drivers(latest.get("top_drivers") if latest else [])
+
         if current_score < 40:
             risk_level = "low"
         elif current_score < 70:
             risk_level = "medium"
         else:
             risk_level = "high"
-        
+
         cards.append({
             "id": m["id"],
             "name": m["name"],
             "avatar_initials": m["avatar_initials"],
             "current_score": current_score,
             "score_trend": trend,
-            "risk_level": risk_level
+            "risk_level": risk_level,
+            "top_drivers": drivers,
         })
-    
+
     return JSONResponse(cards)
 
 async def get_member_detail(request: Request):
+    manager, err = require_manager(request)
+    if err:
+        return err
+
     member_id = request.path_params["member_id"]
     member = get_member(member_id)
     if not member:
         return JSONResponse({"detail": "Member not found"}, status_code=404)
-    
+    if manager.get("team_id") and member.get("team_id") != manager.get("team_id"):
+        return JSONResponse({"detail": "Member not found"}, status_code=404)
+
     latest_score = get_latest_score(member_id)
     current_score = latest_score["score"] if latest_score else 0
-    top_drivers = latest_score["top_drivers"] if latest_score else []
-    
+    top_drivers = manager_visible_drivers(latest_score["top_drivers"] if latest_score else [])
+
     scores = get_member_scores(member_id, days=30)
     score_history = [{"date": s["date"], "score": s["score"]} for s in scores]
-    
+
     tasks = get_member_tasks(member_id)
     pending_reassignments = get_pending_reassignments(member_id)
-    
+
     return JSONResponse({
         "id": member["id"],
         "name": member["name"],
@@ -305,7 +321,8 @@ async def get_member_detail(request: Request):
         "top_drivers": top_drivers,
         "score_history": score_history,
         "tasks": tasks,
-        "pending_reassignments": pending_reassignments
+        "pending_reassignments": pending_reassignments,
+        "personal_signals_hidden": True,
     })
 
 # --- Member Dashboard Endpoints ---
@@ -426,12 +443,16 @@ async def get_my_risk(request: Request):
         "score_history": score_history
     })
 
-from datetime import datetime
-
 async def recompute_risk(request: Request):
+    manager, err = require_manager(request)
+    if err:
+        return err
+
     member_id = request.path_params["member_id"]
     member = get_member(member_id)
     if not member:
+        return JSONResponse({"detail": "Member not found"}, status_code=404)
+    if manager.get("team_id") and member.get("team_id") != manager.get("team_id"):
         return JSONResponse({"detail": "Member not found"}, status_code=404)
     
     signals = get_latest_signals(member_id)
@@ -455,10 +476,16 @@ async def recompute_risk(request: Request):
 
 # --- Reassignments ---
 async def list_reassignments(request: Request):
+    manager, err = require_manager(request)
+    if err:
+        return err
     member_id = request.query_params.get("member_id")
     return JSONResponse(get_pending_reassignments(member_id))
 
 async def resolve_reassignment(request: Request):
+    manager, err = require_manager(request)
+    if err:
+        return err
     proposal_id = request.path_params["proposal_id"]
     try:
         body = await request.json()
@@ -537,6 +564,7 @@ Example: "Three teammates are approaching burnout threshold — consider redistr
 # --- Routes ---
 routes = [
     Route("/health", health, methods=["GET"]),
+    Route("/api/health", health, methods=["GET"]),
     Route("/api/auth/login", login, methods=["POST"]),
     Route("/api/auth/register", register, methods=["POST"]),
     Route("/api/auth/me", get_current_member, methods=["GET"]),
@@ -556,13 +584,13 @@ routes = [
     Route("/api/summary", generate_summary, methods=["POST"]),
 ]
 
-app = Starlette(debug=True, routes=routes)
+is_prod = settings.environment == "production"
+app = Starlette(debug=not is_prod, routes=routes)
 
-# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=settings.cors_origins,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -133,5 +133,29 @@
     "created_at": "2026-09-01T09:50:03.196476",
     "team_id": "a57aca29-411d-4a78-8e51-047dcbf51fa3",
     "updated_at": "2026-09-01T09:50:03.247404"
+  },
+  {
+    "email": "test@test.com",
+    "name": "Test Manager",
+    "avatar_initials": "TM",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$f893a145cbccf504759a4e2243f3be83$ac8121a7251c9d56838f7c55c715736091dfafb4565795d35cc9bdf611fe6576",
+    "role": "manager",
+    "id": "e66367f1-f0d5-48b5-82e8-8bffc5cfadbe",
+    "created_at": "2026-09-01T20:34:36.409158",
+    "team_id": "989f9546-4914-4699-9f70-9e143ff5b4d0",
+    "updated_at": "2026-09-01T20:34:36.513766"
+  },
+  {
+    "email": "test2@test.com",
+    "name": "Test Manager",
+    "avatar_initials": "TM",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$423ff389d1df644c0dfae0a77a274878$08a52441c6d03e926823913fbe7be59282a0669513a61f7fa857e8b39b05cb64",
+    "role": "manager",
+    "id": "6ae50902-0a1e-4c39-a414-c49224639cef",
+    "created_at": "2026-09-01T20:36:53.238538",
+    "team_id": "eb1f5379-2c9f-4cda-a538-b9dc2cabe43b",
+    "updated_at": "2026-09-01T20:36:53.251369"
   }
 ]
