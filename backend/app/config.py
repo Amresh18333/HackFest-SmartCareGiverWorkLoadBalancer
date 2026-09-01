@@ -6,7 +6,8 @@ from typing import Optional
 
 # Load .env file manually
 def load_env():
-    env_path = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
+    # Look for .env in the backend directory (parent of app/)
+    env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
     if os.path.exists(env_path):
         with open(env_path) as f:
             for line in f:
