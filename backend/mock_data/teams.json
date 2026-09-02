@@ -54,5 +54,47 @@
     "join_code": "573CB010",
     "id": "eb1f5379-2c9f-4cda-a538-b9dc2cabe43b",
     "created_at": "2026-09-01T20:36:53.239535"
+  },
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "437954dc-bef3-4125-8fab-1bd8dd723270",
+    "join_code": "2A5F395C",
+    "id": "902e05f7-24f3-448d-8d32-33210790f0f8",
+    "created_at": "2026-09-02T11:22:30.703514"
+  },
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "ba27e3a1-b436-4474-9efb-bfd61a6fd3bd",
+    "join_code": "0DA7431B",
+    "id": "f018b93d-8bff-403a-b7f1-2732207f9f29",
+    "created_at": "2026-09-02T11:28:10.451654"
+  },
+  {
+    "name": "Test Team",
+    "manager_id": "13b4dc5f-a014-4c12-b24a-8ad8dcba3422",
+    "join_code": "9B3392AB",
+    "id": "66403b51-0165-485b-96a5-6a8929b111a4",
+    "created_at": "2026-09-02T17:16:08.971016"
+  },
+  {
+    "name": "Alpha",
+    "manager_id": "ffc2edf7-9f23-447c-809b-0ebeb49c291a",
+    "join_code": "9FA66691",
+    "id": "8497b6af-2a13-4c49-8a74-7c0bf7f678b2",
+    "created_at": "2026-09-02T17:21:32.108163"
+  },
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "0f2ed733-1857-4632-907c-5fded4fdec47",
+    "join_code": "71CE494D",
+    "id": "397a4121-361b-40c8-a98a-e7950d4ada05",
+    "created_at": "2026-09-02T17:25:43.041359"
+  },
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "7a699b66-b084-4177-9d82-69ee03959fb8",
+    "join_code": "99AB875F",
+    "id": "675bde00-6cf2-4308-8ece-32ca27eead4f",
+    "created_at": "2026-09-02T18:01:36.579647"
   }
 ]

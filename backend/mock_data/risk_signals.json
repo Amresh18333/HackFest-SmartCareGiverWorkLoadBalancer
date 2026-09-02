@@ -3610,5 +3610,41 @@
     "self_checkin_score": 3,
     "id": "64abab4e-0380-44af-b46d-e0992f33af16",
     "updated_at": "2026-09-01T09:50:03.208146"
+  },
+  {
+    "member_id": "4ff2f26d-de46-48e5-9ae6-80081454edf3",
+    "date": "2026-09-02",
+    "tasks_today": 5,
+    "overdue_tasks": 0,
+    "late_night_activity_flag": true,
+    "avg_response_latency_mins": 45,
+    "consecutive_overloaded_days": 0,
+    "self_checkin_score": 3,
+    "id": "ce89ce0d-1491-445f-8967-76eefe927914",
+    "updated_at": "2026-09-02T11:22:30.804035"
+  },
+  {
+    "member_id": "43d40ced-6637-4ea3-ad35-f0b0d466bf98",
+    "date": "2026-09-02",
+    "tasks_today": 5,
+    "overdue_tasks": 0,
+    "late_night_activity_flag": true,
+    "avg_response_latency_mins": 45,
+    "consecutive_overloaded_days": 0,
+    "self_checkin_score": 3,
+    "id": "b613bf1b-82c9-4d96-97d2-8796f3b8334f",
+    "updated_at": "2026-09-02T17:21:20.344390"
+  },
+  {
+    "member_id": "ecf8432c-d965-472c-bd82-4b8bdf24a8ea",
+    "date": "2026-09-02",
+    "tasks_today": 5,
+    "overdue_tasks": 0,
+    "late_night_activity_flag": true,
+    "avg_response_latency_mins": 45,
+    "consecutive_overloaded_days": 0,
+    "self_checkin_score": 3,
+    "id": "b3a91703-9b2c-42a8-85ab-22cb013b18b0",
+    "updated_at": "2026-09-02T18:01:36.678802"
   }
 ]

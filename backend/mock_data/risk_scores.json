@@ -3331,5 +3331,38 @@
     ],
     "id": "3085a948-3701-4da7-8f48-0f77be9941b9",
     "updated_at": "2026-09-01T09:50:03.292384"
+  },
+  {
+    "member_id": "4ff2f26d-de46-48e5-9ae6-80081454edf3",
+    "date": "2026-09-02",
+    "score": 42,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "68162183-70ec-41e7-9455-26f0c9791335",
+    "updated_at": "2026-09-02T11:22:30.808922"
+  },
+  {
+    "member_id": "43d40ced-6637-4ea3-ad35-f0b0d466bf98",
+    "date": "2026-09-02",
+    "score": 42,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "3c3c6706-7d4f-4e05-9e82-260a9d122fb4",
+    "updated_at": "2026-09-02T17:21:20.349835"
+  },
+  {
+    "member_id": "ecf8432c-d965-472c-bd82-4b8bdf24a8ea",
+    "date": "2026-09-02",
+    "score": 42,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "2a2342e7-9c92-41e8-9b3f-9a1a222bb244",
+    "updated_at": "2026-09-02T18:01:36.684366"
   }
 ]
