@@ -1,6 +1,5 @@
 """
-Supabase client - uses real Supabase client when credentials are available,
-falls back to mock client for local development.
+Supabase client - uses real client when credentials available, mock for local dev.
 """
 import os
 import sys
@@ -9,7 +8,6 @@ from typing import Optional
 # Check if real Supabase credentials are provided
 HAS_REAL_CREDS = bool(os.getenv("SUPABASE_URL") and os.getenv("SUPABASE_SERVICE_ROLE_KEY"))
 
-# Try to import real client
 _real_client_available = False
 if HAS_REAL_CREDS:
     try:
@@ -20,7 +18,7 @@ if HAS_REAL_CREDS:
         _real_client_available = False
 
 if _real_client_available:
-    # Use real Supabase client (production on Render)
+    # ===== REAL SUPABASE CLIENT (Production on Render) =====
     from supabase import create_client, Client
     from app.config import settings
     
@@ -43,7 +41,7 @@ if _real_client_available:
     
     print("✅ Using REAL Supabase client")
 else:
-    # Mock client for local development (Windows without real credentials)
+    # ===== MOCK CLIENT (Local Windows Development) =====
     import json
     import uuid
     from datetime import date, datetime
@@ -283,15 +281,38 @@ from datetime import date, datetime
 from typing import Dict, List, Optional, Any
 from copy import deepcopy
 
+# Define TABLES for mock client
 if not _real_client_available:
-    # Only import these for mock client
     TABLES = [
         "team_members", "teams", "tasks", "risk_signals", 
         "risk_scores", "proposed_reassignments"
     ]
+
+# Real client functions (when available)
+if _real_client_available:
+    from supabase import create_client, Client
+    from app.config import settings
     
-    # MockTable class already defined above
+    _supabase: "Client" = None
+    _supabase_admin: "Client" = None
     
+    def get_supabase() -> "Client":
+        """Get Supabase client with anon key (for client-side operations)."""
+        global _supabase
+        if _supabase is None:
+            _supabase = create_client(settings.supabase_url, settings.supabase_anon_key)
+        return _supabase
+    
+    def get_supabase_admin() -> "Client":
+        """Get Supabase client with service role key (for admin operations)."""
+        global _supabase_admin
+        if _supabase_admin is None:
+            _supabase_admin = create_client(settings.supabase_url, settings.supabase_service_role_key)
+        return _supabase_admin
+    
+    print("✅ Using REAL Supabase client")
+else:
+    # Mock client functions
     _mock_client = None
 
     def get_supabase() -> MockSupabaseClient:
@@ -302,6 +323,12 @@ if not _real_client_available:
 
     def get_supabase_admin() -> MockSupabaseClient:
         return get_supabase()
-else:
-    # Real client functions already defined above
-    pass
+
+# Required imports for mock client
+import os
+import sys
+import json
+import uuid
+from datetime import date, datetime
+from typing import Dict, List, Optional, Any
+from copy import deepcopy
