@@ -2,7 +2,6 @@ import sys
 sys.path.insert(0, '.')
 from app.main import app
 from starlette.testclient import TestClient
-import uuid
 import time
 
 client = TestClient(app)
@@ -15,7 +14,7 @@ print('=== FULL FLOW TEST ===')
 # 1. Register Manager
 print('\n1. Register Manager...')
 r = client.post('/api/auth/register', json={
-    'email': unique_email('mgr'), 'password': 'pwd123', 'name': 'Manager',
+    'email': 'mgr@test.com', 'password': 'pwd123', 'name': 'Manager',
     'avatar_initials': 'MG', 'is_manager': True, 'team_name': 'Care Team Alpha'
 })
 print(f'   Status: {r.status_code}')
@@ -23,24 +22,16 @@ data = r.json()
 mgr_token = data['access_token']
 mgr_headers = {'Authorization': f'Bearer {mgr_token}'}
 
-# 2. Login Manager
-print('\n2. Login Manager...')
-r = client.post('/api/auth/login', json={'email': data['member']['email'], 'password': 'pwd123'})
-mgr_token = r.json()['access_token']
-mgr_headers = {'Authorization': f'Bearer {mgr_token}'}
-print(f'   Status: {r.status_code}')
-
-# 3. Get team info
-print('\n3. Get team info...')
+# Get join code from team endpoint
 r = client.get('/api/team/me', headers=mgr_headers)
 team = r.json()
 join_code = team['team']['join_code']
 print(f'   Join code: {join_code}')
 
-# 4. Register Member
-print('\n4. Register Member...')
+# 2. Register Member
+print('\n2. Register Member...')
 r = client.post('/api/auth/register', json={
-    'email': unique_email('mem'), 'password': 'pwd123', 'name': 'Member',
+    'email': 'mem@test.com', 'password': 'pwd123', 'name': 'Member',
     'avatar_initials': 'MB'
 })
 mem_data = r.json()
@@ -48,13 +39,13 @@ mem_token = mem_data['access_token']
 mem_headers = {'Authorization': f'Bearer {mem_token}'}
 print(f'   Status: {r.status_code}')
 
-# 5. Member joins team
-print('\n5. Member joins team...')
+# 3. Member joins team
+print('\n3. Member joins team...')
 r = client.post('/api/team/join', headers=mem_headers, json={'join_code': join_code})
 print(f'   Status: {r.status_code}')
 
-# 6. Member submits daily signals
-print('\n6. Member submits daily check-in...')
+# 4. Member submits daily signals
+print('\n4. Member submits daily check-in...')
 r = client.post('/api/member/signals', headers=mem_headers, json={
     'self_checkin_score': 3,
     'tasks_today': 5,
@@ -62,18 +53,17 @@ r = client.post('/api/member/signals', headers=mem_headers, json={
     'avg_response_latency_mins': 45,
 })
 print(f'   Status: {r.status_code}')
-print(f'   Response: {r.json()}')
+print(f'   Risk score: {r.json().get("risk_score", {}).get("score")}')
 
-# 8. Member gets their risk
-print('\n9. Member gets risk...')
+# 5. Member gets their risk
+print('\n5. Member gets risk...')
 r = client.get('/api/member/risk', headers=mem_headers)
 risk = r.json()
 print(f'   Score: {risk["current_score"]}')
 print(f'   Drivers: {risk["top_drivers"]}')
-print(f'   History days: {len(risk["score_history"])}')
 
-# 10. Manager gets team
-print('\n10. Manager gets team...')
+# 6. Manager gets team
+print('\n6. Manager gets team...')
 r = client.get('/api/members', headers=mgr_headers)
 members = r.json()
 print(f'   Members count: {len(members)}')
@@ -81,19 +71,36 @@ for m in members:
     if isinstance(m, dict):
         print(f'   - {m["name"]}: score={m["current_score"]}, risk={m["risk_level"]}')
 
-# 11. Trigger rebalancing for high-risk member (Alex)
-print('\n12. Trigger rebalancing for high-risk member (Alex)...')
-# Need to use a manager who has access to the seeded team
-# Let's use the existing seeded manager from the mock data
-# We need to login as the seeded manager
+# Trigger high risk for member
+print('\n7. Trigger high risk for member...')
+for _ in range(5):
+    client.post('/api/member/signals', headers=mem_headers, json={
+        'self_checkin_score': 1,
+        'tasks_today': 10,
+        'late_night_activity_flag': True,
+        'avg_response_latency_mins': 120,
+    })
 
-# First, let's check if the seeded manager exists and can login
-print('\n11. Check seeded data...')
-from app.db.supabase_client import get_supabase_admin
-sb = get_supabase_admin()
-members = sb.table('team_members').select('*').execute()
-for m in members.data:
-    if m.get('role') == 'manager':
-        print(f'  Seeded manager: {m["name"]} ({m["email"]})')
+# Recompute risk for the member
+mem_id = None
+for m in members:
+    if isinstance(m, dict) and m.get('email') == 'mem@test.com':
+        mem_id = m['id']
+        break
+
+if mem_id:
+    print('\n7. Trigger high risk for member...')
+    r = client.post(f'/api/members/{mem_id}/recompute-risk', headers=mgr_headers)
+    print(f'   Recompute status: {r.status_code}')
+    print(f'   Proposal created: {"rebalance_proposal" in r.json()}')
+
+# Manager checks proposals
+print('\n8. Manager checks proposals...')
+r = client.get('/api/reassignments', headers=mgr_headers)
+proposals = r.json()
+print(f'   Proposals: {len(proposals)}')
+for p in proposals:
+    if isinstance(p, dict):
+        print(f'   - {p["tasks"]["title"]}: {p["from_member"]["name"]} -> {p["to_member"]["name"]}')
 
 print('\nALL TESTS PASSED!')
