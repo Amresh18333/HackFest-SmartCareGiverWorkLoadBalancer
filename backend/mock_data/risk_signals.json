@@ -3610,5 +3610,17 @@
     "self_checkin_score": 1,
     "id": "3bb27812-195c-481a-9607-ee15d97d6133",
     "updated_at": "2026-09-02T23:38:11.633040"
+  },
+  {
+    "member_id": "0c032f08-04f1-425d-b274-35b5349a55a9",
+    "date": "2026-09-02",
+    "tasks_today": 0,
+    "overdue_tasks": 0,
+    "late_night_activity_flag": false,
+    "avg_response_latency_mins": 30,
+    "consecutive_overloaded_days": 0,
+    "self_checkin_score": 1,
+    "id": "cc54905c-daf4-4841-9533-c4c29203a6b6",
+    "updated_at": "2026-09-02T23:44:18.960185"
   }
 ]
