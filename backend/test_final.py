@@ -2,6 +2,7 @@ import sys
 sys.path.insert(0, '.')
 from app.main import app
 from starlette.testclient import TestClient
+import uuid
 import time
 
 client = TestClient(app)
@@ -13,25 +14,37 @@ print('=== FULL FLOW TEST ===')
 
 # 1. Register Manager
 print('\n1. Register Manager...')
+mgr_email = unique_email('mgr')
 r = client.post('/api/auth/register', json={
-    'email': 'mgr@test.com', 'password': 'pwd123', 'name': 'Manager',
+    'email': mgr_email, 'password': 'pwd123', 'name': 'Manager',
     'avatar_initials': 'MG', 'is_manager': True, 'team_name': 'Care Team Alpha'
 })
 print(f'   Status: {r.status_code}')
 data = r.json()
 mgr_token = data['access_token']
 mgr_headers = {'Authorization': f'Bearer {mgr_token}'}
+join_code = data.get('member', {}).get('join_code') or data.get('team', {}).get('join_code')
+print(f'   Join code: {join_code}')
 
-# Get join code from team endpoint
+# 2. Login Manager
+print('\n2. Login Manager...')
+r = client.post('/api/auth/login', json={'email': mgr_email, 'password': 'pwd123'})
+mgr_token = r.json()['access_token']
+mgr_headers = {'Authorization': f'Bearer {mgr_token}'}
+print(f'   Status: {r.status_code}')
+
+# 3. Get team info
+print('\n3. Get team info...')
 r = client.get('/api/team/me', headers=mgr_headers)
 team = r.json()
 join_code = team['team']['join_code']
 print(f'   Join code: {join_code}')
 
-# 2. Register Member
+# 4. Register Member
 print('\n2. Register Member...')
+mem_email = unique_email('mem')
 r = client.post('/api/auth/register', json={
-    'email': 'mem@test.com', 'password': 'pwd123', 'name': 'Member',
+    'email': mem_email, 'password': 'pwd123', 'name': 'Member',
     'avatar_initials': 'MB'
 })
 mem_data = r.json()
@@ -39,7 +52,7 @@ mem_token = mem_data['access_token']
 mem_headers = {'Authorization': f'Bearer {mem_token}'}
 print(f'   Status: {r.status_code}')
 
-# 3. Member joins team
+# 5. Member joins team
 print('\n3. Member joins team...')
 r = client.post('/api/team/join', headers=mem_headers, json={'join_code': join_code})
 print(f'   Status: {r.status_code}')
@@ -71,7 +84,7 @@ for m in members:
     if isinstance(m, dict):
         print(f'   - {m["name"]}: score={m["current_score"]}, risk={m["risk_level"]}')
 
-# Trigger high risk for member
+# 7. Trigger high risk for member
 print('\n7. Trigger high risk for member...')
 for _ in range(5):
     client.post('/api/member/signals', headers=mem_headers, json={
@@ -94,7 +107,7 @@ if mem_id:
     print(f'   Recompute status: {r.status_code}')
     print(f'   Proposal created: {"rebalance_proposal" in r.json()}')
 
-# Manager checks proposals
+# 7. Manager checks proposals
 print('\n8. Manager checks proposals...')
 r = client.get('/api/reassignments', headers=mgr_headers)
 proposals = r.json()

@@ -3320,5 +3320,16 @@
     ],
     "id": "82509bb5-8287-491d-b449-44e12d0f3746",
     "updated_at": "2026-09-02T23:44:18.966421"
+  },
+  {
+    "member_id": "7f913487-6fa8-4880-872d-a60548f373d2",
+    "date": "2026-09-03",
+    "score": 70,
+    "top_drivers": [
+      "high task count today",
+      "late-night work activity"
+    ],
+    "id": "98d0eb7f-c0e9-4ebf-9419-955d4ce1e8d0",
+    "updated_at": "2026-09-03T01:07:19.383375"
   }
 ]

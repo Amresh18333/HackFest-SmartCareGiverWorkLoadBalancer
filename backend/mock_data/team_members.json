@@ -113,5 +113,65 @@
     "created_at": "2026-09-02T23:44:16.574327",
     "team_id": "0a7b961d-4b37-4c92-ac60-143519430213",
     "updated_at": "2026-09-02T23:44:16.575179"
+  },
+  {
+    "email": "mgr1788377449105@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$d3d74dc5e1ba9e2f2169bf9b9a90cdde$0f5527d5ca200a6c9255cbe20e7e5775e9b3b3d2bdc2879e9bf9a4b11b00f5e1",
+    "role": "manager",
+    "id": "9a6f5f4d-b097-44f9-b7b8-83e0492727c2",
+    "created_at": "2026-09-03T01:00:49.148866",
+    "team_id": "0a3b4728-80ee-44d4-9eae-2d38b8325f62",
+    "updated_at": "2026-09-03T01:00:49.150045"
+  },
+  {
+    "email": "mgr1788377608615@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$7c65890678e5728d8bc7a7bf8c545db0$e12c978e938b8b2badaea3a112afddf593697ec535487ab699f82ccde71c7e12",
+    "role": "manager",
+    "id": "53c6d7c5-1cb8-41cb-9718-abfc2d726b96",
+    "created_at": "2026-09-03T01:03:28.669129",
+    "team_id": "475473df-b73f-48ef-9a4e-dc26254f3ea6",
+    "updated_at": "2026-09-03T01:03:28.670386"
+  },
+  {
+    "email": "mgr1788377742216@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$bca1b252c07a349cf1eb2fc9d6d9ab2e$4a2fb9790fa63babbe1066805c186333be44ee4fa08b4d8afd63e65e919ce8dc",
+    "role": "manager",
+    "id": "0f6b7694-44ac-42bb-8e12-ea1df4e07693",
+    "created_at": "2026-09-03T01:05:42.253446",
+    "team_id": "abbc26eb-78c8-4ed8-9b10-e5080d6ce6ab",
+    "updated_at": "2026-09-03T01:05:42.254686"
+  },
+  {
+    "email": "mgr1788377839183@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$5bb4628aa9613c6c27c2ca5c1773be9f$6ba13b9d37e50086e20a66f5c398e6346f81c1c9b2fe765168a03d098ec12584",
+    "role": "manager",
+    "id": "0e6cf192-95ca-4830-b563-30866e6ed88e",
+    "created_at": "2026-09-03T01:07:19.224338",
+    "team_id": "5be99e71-2710-4e60-90bd-c9631009e0cc",
+    "updated_at": "2026-09-03T01:07:19.225826"
+  },
+  {
+    "email": "mem1788377839270@test.com",
+    "name": "Member",
+    "avatar_initials": "MB",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$dbb2107ca4659e8f48bf3d2a7fb4a7ad$55c48618d213de0209ccd20b9b834aab3d6f3fe12711939f4abeb881fdb4de9c",
+    "role": "member",
+    "id": "7f913487-6fa8-4880-872d-a60548f373d2",
+    "created_at": "2026-09-03T01:07:19.305636",
+    "team_id": "5be99e71-2710-4e60-90bd-c9631009e0cc",
+    "updated_at": "2026-09-03T01:07:19.308795"
   }
 ]
