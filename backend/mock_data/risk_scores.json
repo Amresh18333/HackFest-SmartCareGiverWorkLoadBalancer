@@ -1,13 +1,3313 @@
 [
   {
-    "member_id": "fb0efb31-8086-494f-b042-3070057e5da1",
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-04",
+    "score": 16,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "ed56c72b-f88e-42dd-b463-1a275a3d61d4",
+    "updated_at": "2026-09-02T20:52:13.280772"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-05",
+    "score": 18,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "e4b94c53-4531-432d-a9ec-1b25b76161cd",
+    "updated_at": "2026-09-02T20:52:13.281331"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-06",
+    "score": 34,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "b3389937-2d27-4d56-84ec-587ef34de946",
+    "updated_at": "2026-09-02T20:52:13.281754"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-07",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "d3cb2046-78f1-42bc-921b-c82a3423b119",
+    "updated_at": "2026-09-02T20:52:13.282139"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-08",
+    "score": 19,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "fcab3f35-cc98-4e80-bc1a-979c0757e6d8",
+    "updated_at": "2026-09-02T20:52:13.282550"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-09",
+    "score": 17,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "1917aff9-8c47-4e34-8d10-417c73f6c2c7",
+    "updated_at": "2026-09-02T20:52:13.282954"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-10",
+    "score": 20,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "a34b0fa2-ba7f-41c2-ac01-e996b12fcb89",
+    "updated_at": "2026-09-02T20:52:13.283379"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-11",
+    "score": 14,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "8182d902-8f65-49da-b0f5-2df6bbb440d9",
+    "updated_at": "2026-09-02T20:52:13.283833"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-12",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "d8ac44ec-244e-490d-be42-5a1ffa6c6f8a",
+    "updated_at": "2026-09-02T20:52:13.284365"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-13",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "c7066602-d4ea-4d62-8b83-5c5d30015704",
+    "updated_at": "2026-09-02T20:52:13.284807"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-14",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "3cd0a99a-159f-420b-ab85-b1d3c3d93b04",
+    "updated_at": "2026-09-02T20:52:13.285244"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-15",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "74af1e17-aa0f-41ef-927e-ec214a45a435",
+    "updated_at": "2026-09-02T20:52:13.285705"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-16",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "7e9ad6f6-89d2-46c8-a0aa-14dcbbc9bbfd",
+    "updated_at": "2026-09-02T20:52:13.286202"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-17",
+    "score": 38,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "613ca8ec-55ec-4c8a-87c2-4e0b5ecc5fde",
+    "updated_at": "2026-09-02T20:52:13.286749"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-18",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "15d22636-c82d-4582-b03e-93f877434217",
+    "updated_at": "2026-09-02T20:52:13.287332"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-19",
+    "score": 18,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "c8d74e90-5036-43c7-9a95-f90b55154b0f",
+    "updated_at": "2026-09-02T20:52:13.288001"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-20",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "8a6addb4-8796-4181-a435-80d3f65ec183",
+    "updated_at": "2026-09-02T20:52:13.288645"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-21",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "99ce60eb-b828-4c3e-a849-fc3274190fa7",
+    "updated_at": "2026-09-02T20:52:13.289251"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-22",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "52010786-a939-4487-800e-cfdafec4973d",
+    "updated_at": "2026-09-02T20:52:13.289840"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-23",
+    "score": 23,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "4aa12151-a0c9-47e2-b58a-9469d53af112",
+    "updated_at": "2026-09-02T20:52:13.290431"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-24",
+    "score": 18,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "25bc9561-6d33-4858-99c3-9d8a67f23516",
+    "updated_at": "2026-09-02T20:52:13.291017"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-25",
+    "score": 20,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "539387f1-e53b-4351-b53f-1b1949e80bbe",
+    "updated_at": "2026-09-02T20:52:13.291624"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-26",
+    "score": 32,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "63f1fce2-b9f6-4343-b404-b4b9b469aef4",
+    "updated_at": "2026-09-02T20:52:13.292242"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-27",
+    "score": 19,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "2f89a39e-2713-4c29-b606-3ec403843e00",
+    "updated_at": "2026-09-02T20:52:13.292968"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-28",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "3d8a11c2-c794-4714-8205-4311ff401be7",
+    "updated_at": "2026-09-02T20:52:13.293685"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-29",
+    "score": 11,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "100c3ebf-d60f-42f3-87c8-a1ed0cb8e6c8",
+    "updated_at": "2026-09-02T20:52:13.294374"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-30",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "c3306713-b1c8-41d2-95ff-3102f57ef0d8",
+    "updated_at": "2026-09-02T20:52:13.295103"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-07-31",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "ea89c26b-74f7-460a-a1b2-aa0b59a4a6b1",
+    "updated_at": "2026-09-02T20:52:13.295819"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-01",
+    "score": 21,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "faca4387-605f-4e6d-b521-3b428b2af407",
+    "updated_at": "2026-09-02T20:52:13.296508"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-02",
+    "score": 18,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "f0e6178f-d336-4d1f-973c-a2c51db51036",
+    "updated_at": "2026-09-02T20:52:13.297298"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-03",
+    "score": 49,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "9a9cf951-4277-4195-bc2a-c5f012b29b28",
+    "updated_at": "2026-09-02T20:52:13.298053"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-04",
+    "score": 40,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "bb322ef8-15a7-4e5e-af0f-4ef8d65b61da",
+    "updated_at": "2026-09-02T20:52:13.298787"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-05",
+    "score": 60,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "0ba38781-9e73-446e-a3d2-caaa78c440b8",
+    "updated_at": "2026-09-02T20:52:13.299510"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-06",
+    "score": 52,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "629acd61-d970-4a59-8487-f6316417b3e4",
+    "updated_at": "2026-09-02T20:52:13.300255"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-07",
+    "score": 64,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "029d9a50-f71b-4611-b95e-b401536a194a",
+    "updated_at": "2026-09-02T20:52:13.300992"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-08",
+    "score": 85,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "3b92af8b-d1f9-4c80-8096-028fe37e12dd",
+    "updated_at": "2026-09-02T20:52:13.301773"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-09",
+    "score": 97,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "802ab650-64f9-4b6d-85f8-3fb659efaf3d",
+    "updated_at": "2026-09-02T20:52:13.302601"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-10",
+    "score": 82,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "a002a9ba-2010-4c2a-bcdb-991b58b9ba7b",
+    "updated_at": "2026-09-02T20:52:13.303410"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-11",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "f45ef3f2-6ff8-4764-904e-eb180f85adb2",
+    "updated_at": "2026-09-02T20:52:13.304272"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-12",
+    "score": 83,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "c00617bb-a39d-415c-acb9-6e5bc7d95dbe",
+    "updated_at": "2026-09-02T20:52:13.305229"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-13",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "79bf05c5-15c7-4054-9baf-5f7b911f78d5",
+    "updated_at": "2026-09-02T20:52:13.306164"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-14",
+    "score": 99,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "ccc0f2c6-d3d1-4a34-8b02-3e827d541fc9",
+    "updated_at": "2026-09-02T20:52:13.307141"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-15",
+    "score": 88,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "ce7c951b-c939-431d-b762-0dd0578d27b3",
+    "updated_at": "2026-09-02T20:52:13.308120"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-16",
+    "score": 92,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "25581b74-6be7-40be-b401-3dc4e2c10be7",
+    "updated_at": "2026-09-02T20:52:13.309157"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-17",
+    "score": 95,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "6ff3796b-62af-4050-abcb-ba6069d86fdc",
+    "updated_at": "2026-09-02T20:52:13.310170"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-18",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "a43776c0-a011-4ec3-bdf4-8b864a3177c2",
+    "updated_at": "2026-09-02T20:52:13.311187"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-19",
+    "score": 82,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "d0786b67-73cc-4bb8-b5df-71dffb0eff71",
+    "updated_at": "2026-09-02T20:52:13.313151"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-20",
+    "score": 94,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "e4866a08-2362-48bf-a243-e60fe9cd3512",
+    "updated_at": "2026-09-02T20:52:13.314274"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-21",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "c3a9b7a8-5453-496b-881b-75ec291ce963",
+    "updated_at": "2026-09-02T20:52:13.315373"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-22",
+    "score": 87,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "61689c64-5c9c-46f7-9285-77bf8b77011c",
+    "updated_at": "2026-09-02T20:52:13.316569"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-23",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "3f9ca0d4-6e69-4e53-9315-ee5ebef7d2b0",
+    "updated_at": "2026-09-02T20:52:13.317775"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-24",
+    "score": 93,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "slow response times"
+    ],
+    "id": "0bc8e47f-2b67-41b5-b090-613846358969",
+    "updated_at": "2026-09-02T20:52:13.318864"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-25",
+    "score": 86,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "9b7d8279-d0b8-4f10-ae13-b17fcdfb81e0",
+    "updated_at": "2026-09-02T20:52:13.319914"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-26",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "ba894f27-7714-4d0f-b229-5a1de38df5b0",
+    "updated_at": "2026-09-02T20:52:13.320950"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-27",
+    "score": 81,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "6b854556-dfff-4650-806c-b13314b0fe8b",
+    "updated_at": "2026-09-02T20:52:13.322021"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-28",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "72cf4fef-c35c-4031-a90d-d1dd1a2e5d88",
+    "updated_at": "2026-09-02T20:52:13.323075"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-29",
+    "score": 85,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "back-to-back overloaded days"
+    ],
+    "id": "7b89def3-2d67-4840-a001-55caca6051fd",
+    "updated_at": "2026-09-02T20:52:13.324251"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-30",
+    "score": 91,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "slow response times"
+    ],
+    "id": "812aa305-7d0d-4830-aeef-e8d2894c44b2",
+    "updated_at": "2026-09-02T20:52:13.326027"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-08-31",
+    "score": 100,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "b9332d87-51e0-45af-b28d-21a630828b29",
+    "updated_at": "2026-09-02T20:52:13.327452"
+  },
+  {
+    "member_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "date": "2026-09-01",
+    "score": 98,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "late-night work activity"
+    ],
+    "id": "45233c5d-5a56-461d-8fb3-02517fbe42e3",
+    "updated_at": "2026-09-02T20:52:13.328727"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-04",
+    "score": 22,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "9c043daa-68f5-47e2-94e5-c977baadc3a6",
+    "updated_at": "2026-09-02T20:52:13.330513"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-05",
+    "score": 18,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "93caea37-12d5-4ada-a465-4d472579353f",
+    "updated_at": "2026-09-02T20:52:13.331698"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-06",
+    "score": 24,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "711b93e3-19d7-49ef-8b42-e88e3acd4e53",
+    "updated_at": "2026-09-02T20:52:13.332937"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-07",
+    "score": 35,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "2296a302-0a09-4318-80c9-4c021743a188",
+    "updated_at": "2026-09-02T20:52:13.334195"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-08",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "a9a46369-aa0a-4d30-997a-7193b5bc3ba6",
+    "updated_at": "2026-09-02T20:52:13.335438"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-09",
+    "score": 26,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "d73f4e1c-f3c4-4a09-833e-b796d23863a3",
+    "updated_at": "2026-09-02T20:52:13.336761"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-10",
+    "score": 20,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "e85b683a-444f-45b3-9f9e-138786bec90a",
+    "updated_at": "2026-09-02T20:52:13.338160"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-11",
+    "score": 37,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "31edca8f-e168-457b-8511-0277502b54c9",
+    "updated_at": "2026-09-02T20:52:13.339687"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-12",
+    "score": 20,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "03cd9954-74da-4fac-98d8-9b4a5296ceec",
+    "updated_at": "2026-09-02T20:52:13.341153"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-13",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "61f29dec-eb45-4632-a941-ee816b9f2387",
+    "updated_at": "2026-09-02T20:52:13.342600"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-14",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "da64e7d7-7f11-4fa1-b729-0679df3eb583",
+    "updated_at": "2026-09-02T20:52:13.344132"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-15",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "afe55764-026f-4240-9968-d526252db971",
+    "updated_at": "2026-09-02T20:52:13.345663"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-16",
+    "score": 21,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "e821d35c-5c15-4e77-ad8b-82f49f78c469",
+    "updated_at": "2026-09-02T20:52:13.347176"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-17",
+    "score": 21,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "aeea6ee1-8b75-4935-98e3-40cfcc1a3bd8",
+    "updated_at": "2026-09-02T20:52:13.348683"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-18",
+    "score": 24,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "b8779b5f-e942-4fcf-a5d3-9227a9a542cb",
+    "updated_at": "2026-09-02T20:52:13.350246"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-19",
+    "score": 22,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "8fc31b6c-95dd-4e80-a5ee-79cb1a6331f0",
+    "updated_at": "2026-09-02T20:52:13.351769"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-20",
+    "score": 21,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "ed52464f-f920-4716-9b81-83339f39b4b6",
+    "updated_at": "2026-09-02T20:52:13.353273"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-21",
+    "score": 15,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "6bc92eb3-ef7c-4cbb-9720-7e58b66c8f0b",
+    "updated_at": "2026-09-02T20:52:13.354814"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-22",
+    "score": 21,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "9a81b848-7058-42e8-b0ec-3e42e4318304",
+    "updated_at": "2026-09-02T20:52:13.356417"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-23",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "7135f678-cadf-4da3-9ef8-fc03a048049c",
+    "updated_at": "2026-09-02T20:52:13.358028"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-24",
+    "score": 16,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "2449f828-8211-4a3f-be15-c41c5d654137",
+    "updated_at": "2026-09-02T20:52:13.359691"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-25",
+    "score": 17,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "92aff659-4c69-402f-8cd5-3881f99e0e45",
+    "updated_at": "2026-09-02T20:52:13.361253"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-26",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "0f019a81-fa9e-4779-b380-fbd81d0ece92",
+    "updated_at": "2026-09-02T20:52:13.362753"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-27",
+    "score": 21,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "4c0676b8-6f6a-4b50-8181-87b639c3881e",
+    "updated_at": "2026-09-02T20:52:13.364187"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-28",
+    "score": 19,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "a274f9cc-002d-427d-9d7d-bd155b1da754",
+    "updated_at": "2026-09-02T20:52:13.365570"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-29",
+    "score": 17,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "f958b18f-a51a-4194-9008-3d2a2dea7ca6",
+    "updated_at": "2026-09-02T20:52:13.366981"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-30",
+    "score": 21,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "d5c7f99f-5fcd-475a-8892-18a81e2812fa",
+    "updated_at": "2026-09-02T20:52:13.368531"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-07-31",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "9d61a65f-f3b3-43e0-8645-0c8f9aeedccb",
+    "updated_at": "2026-09-02T20:52:13.370067"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-01",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "23b48818-9e78-4ee7-817e-1e2232aa9f58",
+    "updated_at": "2026-09-02T20:52:13.371622"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-02",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "bb09bf85-1e56-41ed-a9ff-4308feb200df",
+    "updated_at": "2026-09-02T20:52:13.373407"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-03",
+    "score": 18,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "63936679-a60c-4a85-858a-4b06fb63d6ea",
+    "updated_at": "2026-09-02T20:52:13.374989"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-04",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "f6bde7c3-bc53-42f7-85c2-dfdb225e2edc",
+    "updated_at": "2026-09-02T20:52:13.376990"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-05",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "a4b42865-ae51-4994-8c36-11f08e93bf5f",
+    "updated_at": "2026-09-02T20:52:13.379062"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-06",
+    "score": 24,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "353a22b2-4788-4b9d-936e-25d3efc275b7",
+    "updated_at": "2026-09-02T20:52:13.381186"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-07",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "95682a84-ac82-4255-a410-aac4422f34b7",
+    "updated_at": "2026-09-02T20:52:13.383415"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-08",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "31b68f55-822d-494e-95b5-e02985e949df",
+    "updated_at": "2026-09-02T20:52:13.385584"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-09",
+    "score": 22,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "8113ba7a-0d6a-44ae-9dce-2a4fa76e75dc",
+    "updated_at": "2026-09-02T20:52:13.387601"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-10",
+    "score": 18,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "e159bfcc-3c34-48b4-972a-8f11d1343a92",
+    "updated_at": "2026-09-02T20:52:13.389674"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-11",
+    "score": 35,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "869136a3-5bb8-46df-a2d2-7eb6b8fcfb55",
+    "updated_at": "2026-09-02T20:52:13.391619"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-12",
+    "score": 16,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "25231b00-a883-4351-9325-1622eaa7aab2",
+    "updated_at": "2026-09-02T20:52:13.393612"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-13",
+    "score": 33,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "424307e4-9019-48bc-b7c5-a49921874ec3",
+    "updated_at": "2026-09-02T20:52:13.395545"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-14",
+    "score": 24,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "746a94a4-757c-448c-8de8-d2754e08146e",
+    "updated_at": "2026-09-02T20:52:13.397367"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-15",
+    "score": 18,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "5a6fde90-f21b-4620-b972-1ae2e2209be3",
+    "updated_at": "2026-09-02T20:52:13.399125"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-16",
+    "score": 19,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "f056f564-587d-41c0-bbed-ca93e95f9c4b",
+    "updated_at": "2026-09-02T20:52:13.400833"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-17",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "954ff91d-926c-4298-a818-8ea883659178",
+    "updated_at": "2026-09-02T20:52:13.402591"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-18",
+    "score": 32,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "eeeaf5da-edb6-48b7-bc60-d934c3b99d46",
+    "updated_at": "2026-09-02T20:52:13.404318"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-19",
+    "score": 37,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "2ee97548-9b1d-414f-886f-00ba8b8d2412",
+    "updated_at": "2026-09-02T20:52:13.406092"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-20",
+    "score": 60,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "66c990c5-7de8-4267-828f-b675d4b3d3e2",
+    "updated_at": "2026-09-02T20:52:13.407850"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-21",
+    "score": 68,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "00c6e261-8cc3-4c36-9d1d-39595f4e4b54",
+    "updated_at": "2026-09-02T20:52:13.409648"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-22",
+    "score": 82,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "8fba0adf-e018-4397-b020-eb62062c4915",
+    "updated_at": "2026-09-02T20:52:13.411495"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-23",
+    "score": 76,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "754afc53-8615-4fd6-a729-5b6ed5a96439",
+    "updated_at": "2026-09-02T20:52:13.413383"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-24",
+    "score": 62,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "4079c9db-b2a6-488a-9c19-fe2402c36ba1",
+    "updated_at": "2026-09-02T20:52:13.415326"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-25",
+    "score": 60,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "4b61969f-30af-4be5-9523-41a7d75f5db3",
+    "updated_at": "2026-09-02T20:52:13.417539"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-26",
+    "score": 64,
+    "top_drivers": [
+      "slow response times",
+      "low self check-in score"
+    ],
+    "id": "b9727da5-e287-4ff3-b3e7-7609d75b96ca",
+    "updated_at": "2026-09-02T20:52:13.421607"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-27",
+    "score": 68,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "954709ac-a48b-4575-959b-06ef04165c8b",
+    "updated_at": "2026-09-02T20:52:13.425077"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-28",
+    "score": 77,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "34b9797c-1f23-4bc7-bfc4-ba75acf976d6",
+    "updated_at": "2026-09-02T20:52:13.427966"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-29",
+    "score": 82,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "fa6dbb34-7f40-4ee4-b28c-d3dd5025c620",
+    "updated_at": "2026-09-02T20:52:13.430501"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-30",
+    "score": 82,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "5c85c3fc-ae9c-4803-a1d2-4f26a5b342a4",
+    "updated_at": "2026-09-02T20:52:13.433124"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-08-31",
+    "score": 77,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "c71c9b6e-6f4f-4985-b615-2d61e0cf0b30",
+    "updated_at": "2026-09-02T20:52:13.435449"
+  },
+  {
+    "member_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "date": "2026-09-01",
+    "score": 73,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "f4b929d5-8345-4423-b2c4-718c249369df",
+    "updated_at": "2026-09-02T20:52:13.437434"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-04",
+    "score": 7,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "e74091a0-eed8-44ad-8188-70be6d16cc98",
+    "updated_at": "2026-09-02T20:52:13.439828"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-05",
+    "score": 10,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "ef67e72f-9175-4d33-b2ac-1ff4f4fed940",
+    "updated_at": "2026-09-02T20:52:13.441955"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-06",
+    "score": 30,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "dfbecc1a-0ba5-4b74-be3b-fc4a3a2efcca",
+    "updated_at": "2026-09-02T20:52:13.444426"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-07",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "11232065-41d8-400e-836a-1be3af81c5d5",
+    "updated_at": "2026-09-02T20:52:13.446384"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-08",
+    "score": 10,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "9a54288f-a72e-4f9b-9e7f-d5f1f7624d12",
+    "updated_at": "2026-09-02T20:52:13.448512"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-09",
+    "score": 8,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "48c061fa-2939-4fde-b94a-e7885508f6f9",
+    "updated_at": "2026-09-02T20:52:13.450633"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-10",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "e6f8bda9-be4d-4f37-8d9b-a853c934bee1",
+    "updated_at": "2026-09-02T20:52:13.452646"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-11",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "868a5b83-7077-4b9a-9d9e-2291bf7c093b",
+    "updated_at": "2026-09-02T20:52:13.454801"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-12",
+    "score": 14,
+    "top_drivers": [
+      "slow response times",
+      "low self check-in score"
+    ],
+    "id": "4c2b7a95-4703-49d0-9298-cd62eaa6ce96",
+    "updated_at": "2026-09-02T20:52:13.456919"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-13",
+    "score": 12,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "8591f3f5-6134-4f39-bc0a-e85d971b3719",
+    "updated_at": "2026-09-02T20:52:13.458941"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-14",
+    "score": 12,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "3a34b230-6cea-453c-b0e6-bbe7f2a39625",
+    "updated_at": "2026-09-02T20:52:13.461032"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-15",
+    "score": 12,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "54bbfbdf-e24b-4d83-a1cd-7d67e1e6b145",
+    "updated_at": "2026-09-02T20:52:13.463330"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-16",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "1de24d2b-3fef-47a1-ac1c-a0ecb808971e",
+    "updated_at": "2026-09-02T20:52:13.465856"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-17",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "d377f025-dfcf-4060-8ddf-d6fe58edefc8",
+    "updated_at": "2026-09-02T20:52:13.468493"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-18",
+    "score": 12,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "82140930-a9ce-486b-b36d-7698ab2d9b60",
+    "updated_at": "2026-09-02T20:52:13.471089"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-19",
+    "score": 13,
+    "top_drivers": [
+      "slow response times",
+      "low self check-in score"
+    ],
+    "id": "9a386c57-3f41-453f-bdbb-ba3fa5822138",
+    "updated_at": "2026-09-02T20:52:13.473713"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-20",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "70ffcaab-1b2d-4cba-ac23-85ef6113757f",
+    "updated_at": "2026-09-02T20:52:13.476234"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-21",
+    "score": 7,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "d5c812c6-980e-469b-85ee-1b430951d0df",
+    "updated_at": "2026-09-02T20:52:13.479038"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-22",
+    "score": 32,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "f1e1d288-ef02-463a-8fb1-ae08e3729f53",
+    "updated_at": "2026-09-02T20:52:13.481619"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-23",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "f15105fe-6a6f-4ec2-85c3-d0b217bdd551",
+    "updated_at": "2026-09-02T20:52:13.483954"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-24",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "b6002b2c-a7fa-4263-9380-934fc52ef8a0",
+    "updated_at": "2026-09-02T20:52:13.486323"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-25",
+    "score": 11,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "bc4e824e-088e-4b34-a538-0bd0a766b76f",
+    "updated_at": "2026-09-02T20:52:13.488811"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-26",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "3901675f-ea66-4c80-b3aa-e1afabd9084c",
+    "updated_at": "2026-09-02T20:52:13.491194"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-27",
+    "score": 9,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "0c6f8c3e-5374-482c-862e-801ab4595edf",
+    "updated_at": "2026-09-02T20:52:13.493823"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-28",
+    "score": 26,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "8e691dcf-ae9b-43b9-bfe9-288641204ab1",
+    "updated_at": "2026-09-02T20:52:13.496350"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-29",
+    "score": 25,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "79250f93-8f0e-47bd-90ae-ff8bcd4222a0",
+    "updated_at": "2026-09-02T20:52:13.498749"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-30",
+    "score": 12,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "eaadd56d-b098-4774-80e4-3a101031a83c",
+    "updated_at": "2026-09-02T20:52:13.501264"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-07-31",
+    "score": 10,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "9c61df84-273b-4983-b58b-6c5c6420a8a0",
+    "updated_at": "2026-09-02T20:52:13.503707"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-01",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "13e5d6c6-a159-459e-b917-63875ed98f27",
+    "updated_at": "2026-09-02T20:52:13.506215"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-02",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "f1dc88ae-1f5c-418d-8eac-093c214c97a0",
+    "updated_at": "2026-09-02T20:52:13.508806"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-03",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "9fa19f82-e2aa-486b-b7f6-2f675a6fee99",
+    "updated_at": "2026-09-02T20:52:13.511874"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-04",
+    "score": 8,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "41e2895a-a458-4858-a0f9-3cc151f784cb",
+    "updated_at": "2026-09-02T20:52:13.516107"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-05",
+    "score": 31,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "7c3ba0e7-5ead-4378-899c-40e29f0059d2",
+    "updated_at": "2026-09-02T20:52:13.518908"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-06",
+    "score": 10,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "004eba99-699b-44d3-a804-32ac30b0d0d1",
+    "updated_at": "2026-09-02T20:52:13.521583"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-07",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "1db46e6e-52c2-4451-95c9-231721bcd7a0",
+    "updated_at": "2026-09-02T20:52:13.524281"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-08",
+    "score": 12,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "e4a5fef9-4a38-429d-a90d-06e8182bf00d",
+    "updated_at": "2026-09-02T20:52:13.527064"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-09",
+    "score": 8,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "c58baf6b-f971-4232-9a98-c588814ed248",
+    "updated_at": "2026-09-02T20:52:13.530225"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-10",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "049f7eee-b038-4af3-901f-69b78429185f",
+    "updated_at": "2026-09-02T20:52:13.533129"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-11",
+    "score": 15,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "1f529c2f-1cda-4f53-a966-6247b1235929",
+    "updated_at": "2026-09-02T20:52:13.535731"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-12",
+    "score": 31,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "dd7b1e8b-59c7-4623-82e8-c910b45edc64",
+    "updated_at": "2026-09-02T20:52:13.538329"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-13",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "5e12edd6-413e-423e-8464-59ab4d27da0e",
+    "updated_at": "2026-09-02T20:52:13.541080"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-14",
+    "score": 12,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "433b6bca-1c45-4180-88cb-6d1821ac0c77",
+    "updated_at": "2026-09-02T20:52:13.544248"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-15",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "51385295-a318-426a-bf8d-793545c51169",
+    "updated_at": "2026-09-02T20:52:13.547190"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-16",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "d2deb84e-e597-4ea7-8f1e-fd4a476e61e5",
+    "updated_at": "2026-09-02T20:52:13.554853"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-17",
+    "score": 12,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "2976fe84-de69-44ea-916a-89ad1b0ebb48",
+    "updated_at": "2026-09-02T20:52:13.557739"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-18",
+    "score": 11,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "8d8d68a2-9944-4578-994a-d2083c8aa3c0",
+    "updated_at": "2026-09-02T20:52:13.561729"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-19",
+    "score": 18,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "68b1d01f-ecd5-433f-8899-7beda58d6366",
+    "updated_at": "2026-09-02T20:52:13.565103"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-20",
+    "score": 9,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "6f4a5f67-bca7-43d8-85de-daa34aa39cfd",
+    "updated_at": "2026-09-02T20:52:13.568286"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-21",
+    "score": 12,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "09520188-af73-4bc4-ac5c-c87740add756",
+    "updated_at": "2026-09-02T20:52:13.571242"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-22",
+    "score": 13,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "39c7dd22-506c-4254-8403-39efd122594d",
+    "updated_at": "2026-09-02T20:52:13.574000"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-23",
+    "score": 8,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "bb1d3821-5f32-43ea-963b-16ec67611304",
+    "updated_at": "2026-09-02T20:52:13.576951"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-24",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "c97abc75-dc62-49af-aa62-c9a68121875a",
+    "updated_at": "2026-09-02T20:52:13.580247"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-25",
+    "score": 10,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "e726bca7-bf40-4518-ab1a-89c77881a4d5",
+    "updated_at": "2026-09-02T20:52:13.583416"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-26",
+    "score": 10,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "5c5a7398-fe58-4bfe-a0a5-0cf1b5b519f2",
+    "updated_at": "2026-09-02T20:52:13.586783"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-27",
+    "score": 12,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "1b1f07c4-6ff6-43ea-9bc9-268cd95b5a73",
+    "updated_at": "2026-09-02T20:52:13.590314"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-28",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "e4837363-c9db-4abe-958e-21ecb984ae69",
+    "updated_at": "2026-09-02T20:52:13.593496"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-29",
+    "score": 14,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "db83fd70-9757-4e5a-84f1-5c4628bd61e7",
+    "updated_at": "2026-09-02T20:52:13.596332"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-30",
+    "score": 11,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "cdd8acbf-c1fa-4eb9-923d-b2c8e74ccf62",
+    "updated_at": "2026-09-02T20:52:13.599053"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-08-31",
+    "score": 12,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "d90ebcbc-d504-4358-9538-b37b791de632",
+    "updated_at": "2026-09-02T20:52:13.601765"
+  },
+  {
+    "member_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "date": "2026-09-01",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "df8473b1-efc4-4280-b99a-2d0eda571d60",
+    "updated_at": "2026-09-02T20:52:13.604548"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-04",
+    "score": 43,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "b1931256-de7a-42e2-ac35-8e11fd53b908",
+    "updated_at": "2026-09-02T20:52:13.608835"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-05",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "2131052f-64c8-4f9d-92bf-daf4146be262",
+    "updated_at": "2026-09-02T20:52:13.611972"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-06",
+    "score": 20,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "e0d8935e-bbbb-4faa-a75a-391605ce95ce",
+    "updated_at": "2026-09-02T20:52:13.615078"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-07",
+    "score": 28,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "ac619598-2986-46ac-a068-73968ae9d6e0",
+    "updated_at": "2026-09-02T20:52:13.618154"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-08",
+    "score": 26,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "0e32bff7-a6f9-4223-8b19-c6de43e5e849",
+    "updated_at": "2026-09-02T20:52:13.621507"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-09",
+    "score": 44,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "abb443df-9c15-47c0-8da9-fb23125ebf6f",
+    "updated_at": "2026-09-02T20:52:13.625126"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-10",
+    "score": 19,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "17440eb0-bb0d-4b17-8f06-8e4e7af071ec",
+    "updated_at": "2026-09-02T20:52:13.628270"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-11",
+    "score": 39,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "7cb09149-6621-4e0b-b6ce-53849518355b",
+    "updated_at": "2026-09-02T20:52:13.631163"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-12",
+    "score": 39,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "ea9f22b2-4b2e-4888-82a9-07bfe407515e",
+    "updated_at": "2026-09-02T20:52:13.634144"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-13",
+    "score": 16,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "572f2919-c5a8-4522-a5eb-61a683b483e8",
+    "updated_at": "2026-09-02T20:52:13.637366"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-14",
+    "score": 23,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "e2d42a81-21e1-4e9a-b464-3adc4400fec8",
+    "updated_at": "2026-09-02T20:52:13.640572"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-15",
+    "score": 29,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "15f13a00-ec4f-46ec-a483-7947eec3f551",
+    "updated_at": "2026-09-02T20:52:13.643612"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-16",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "543e538e-d386-459a-8d77-90f097824edc",
+    "updated_at": "2026-09-02T20:52:13.646538"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-17",
+    "score": 26,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "da685c29-67ae-4e40-bb78-1fa4b001ae03",
+    "updated_at": "2026-09-02T20:52:13.649780"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-18",
+    "score": 26,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "02c36fa3-c219-4ac4-8569-aba03db8f4d2",
+    "updated_at": "2026-09-02T20:52:13.653179"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-19",
+    "score": 40,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "3a2e5f2f-1ded-43c9-8b1b-06df85d6973b",
+    "updated_at": "2026-09-02T20:52:13.656571"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-20",
+    "score": 29,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "444f8a5b-5afb-4fc6-a260-40eec47f78f6",
+    "updated_at": "2026-09-02T20:52:13.659890"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-21",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "582040b4-b9b9-427b-89c0-583a6a83bca3",
+    "updated_at": "2026-09-02T20:52:13.663260"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-22",
+    "score": 19,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "b44282df-8495-4c96-961a-1862a2c3c879",
+    "updated_at": "2026-09-02T20:52:13.666525"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-23",
+    "score": 23,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "5fccbcd4-f999-446d-9032-56dd3ce87ca0",
+    "updated_at": "2026-09-02T20:52:13.670840"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-24",
+    "score": 26,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "5ad0e2fc-943e-4eaa-b722-11e3d1899db6",
+    "updated_at": "2026-09-02T20:52:13.674055"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-25",
+    "score": 27,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "53f168c4-9765-48df-8f0f-791ed3d38073",
+    "updated_at": "2026-09-02T20:52:13.677211"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-26",
+    "score": 24,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "8d27724d-1735-4442-ba97-76adbf7db51b",
+    "updated_at": "2026-09-02T20:52:13.680333"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-27",
+    "score": 22,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "0aa3cb07-101d-424b-a66f-57fd7cb046cd",
+    "updated_at": "2026-09-02T20:52:13.683535"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-28",
+    "score": 31,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "282bac83-6064-4feb-a482-9e2a5068d9eb",
+    "updated_at": "2026-09-02T20:52:13.686906"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-29",
+    "score": 34,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "c6b9f0db-5480-4d98-a983-2a1ed4541ec9",
+    "updated_at": "2026-09-02T20:52:13.690588"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-30",
+    "score": 21,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "e62bc78d-9a02-4633-a384-9d826fe58689",
+    "updated_at": "2026-09-02T20:52:13.693990"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-07-31",
+    "score": 29,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "2b882725-f55e-44f4-b0e3-60ea3e36ca6f",
+    "updated_at": "2026-09-02T20:52:13.697363"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-01",
+    "score": 20,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "02504d8a-cb25-4afa-b721-21e518b97cef",
+    "updated_at": "2026-09-02T20:52:13.701007"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-02",
+    "score": 24,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "b47bb179-9337-4625-a37b-051f778d6f15",
+    "updated_at": "2026-09-02T20:52:13.704481"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-03",
+    "score": 26,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "29d55b3b-8d0f-440f-a787-f41bb09050bc",
+    "updated_at": "2026-09-02T20:52:13.708051"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-04",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "2f78cb48-c8ba-4a83-ab74-73a6bc7bc271",
+    "updated_at": "2026-09-02T20:52:13.711591"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-05",
+    "score": 18,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "93d207da-3f64-4c19-aaa6-d789d892014d",
+    "updated_at": "2026-09-02T20:52:13.715810"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-06",
+    "score": 35,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "18906c29-5b1a-4def-a74e-98ed5877a715",
+    "updated_at": "2026-09-02T20:52:13.719572"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-07",
+    "score": 18,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "b4bc122c-f543-40c6-9b30-8040ccefd3b4",
+    "updated_at": "2026-09-02T20:52:13.723453"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-08",
+    "score": 24,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "28428329-1b66-4e7e-9bb7-a235b75a9a1c",
+    "updated_at": "2026-09-02T20:52:13.727270"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-09",
+    "score": 29,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "d8f327e3-1610-40f7-a9da-3fdbc72d564f",
+    "updated_at": "2026-09-02T20:52:13.730679"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-10",
+    "score": 22,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "4a5a36ce-dc71-4d73-8de0-1063571a5c39",
+    "updated_at": "2026-09-02T20:52:13.733798"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-11",
+    "score": 21,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "74e5773c-3f13-4eda-ab4b-d55bcc7569f7",
+    "updated_at": "2026-09-02T20:52:13.736771"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-12",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "e47d36b0-a30e-463d-be10-153fb08a2f0a",
+    "updated_at": "2026-09-02T20:52:13.739996"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-13",
+    "score": 22,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "5d73de8a-b8ab-4e9e-997a-07e2e84333ae",
+    "updated_at": "2026-09-02T20:52:13.743833"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-14",
+    "score": 23,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "47fa81e7-6faf-4de0-a0fb-5722dee32d82",
+    "updated_at": "2026-09-02T20:52:13.747730"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-15",
+    "score": 21,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "78ad8514-2eed-446d-bad6-52b4d09facc1",
+    "updated_at": "2026-09-02T20:52:13.751673"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-16",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "c723d316-1c1a-444e-b056-1a18f8974e42",
+    "updated_at": "2026-09-02T20:52:13.755453"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-17",
+    "score": 33,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "93775a49-2e22-40fd-99ff-fb66f8db188a",
+    "updated_at": "2026-09-02T20:52:13.759218"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-18",
+    "score": 49,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "81ce8074-1435-42f9-b18e-61bb31d0f98b",
+    "updated_at": "2026-09-02T20:52:13.764084"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-19",
+    "score": 21,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "8bdeb8fa-3924-4641-a684-70aaf700f93a",
+    "updated_at": "2026-09-02T20:52:13.767778"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-20",
+    "score": 43,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "723dd0c8-8fc8-45eb-9d12-a1ea5f0374f9",
+    "updated_at": "2026-09-02T20:52:13.771912"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-21",
+    "score": 32,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "df4db431-4557-404f-bc19-f6e9e5c08b9a",
+    "updated_at": "2026-09-02T20:52:13.776138"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-22",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "7e4cf97c-d969-4e7f-9f22-c6f7c4b1fc54",
+    "updated_at": "2026-09-02T20:52:13.780263"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-23",
+    "score": 26,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "3f3d7882-6c46-4bd0-b639-10d838bc67a9",
+    "updated_at": "2026-09-02T20:52:13.784403"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-24",
+    "score": 22,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "23387f79-83d3-42f1-8eda-7db08b8216ea",
+    "updated_at": "2026-09-02T20:52:13.788710"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-25",
+    "score": 26,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "0d547f68-f0ec-45c9-b8fc-3190ba35385c",
+    "updated_at": "2026-09-02T20:52:13.792673"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-26",
+    "score": 27,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "a1cd373d-8ec8-4c12-80f6-702a37b2aa03",
+    "updated_at": "2026-09-02T20:52:13.796379"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-27",
+    "score": 22,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "10f13d9d-1941-4157-a5a0-0fd158f1e3cb",
+    "updated_at": "2026-09-02T20:52:13.799790"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-28",
+    "score": 23,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "7337b27f-8b53-4807-8d06-474680a26a01",
+    "updated_at": "2026-09-02T20:52:13.803138"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-29",
+    "score": 19,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "fbfae423-a0d8-4f03-a086-8ddd171bf2e7",
+    "updated_at": "2026-09-02T20:52:13.807154"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-30",
+    "score": 24,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "e3f479d0-4098-4f14-8040-102cbf4c10a2",
+    "updated_at": "2026-09-02T20:52:13.812275"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-08-31",
+    "score": 23,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "86f92f57-6155-4119-a4d9-20712c7a58cb",
+    "updated_at": "2026-09-02T20:52:13.816087"
+  },
+  {
+    "member_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "date": "2026-09-01",
+    "score": 24,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "65b5ed4f-13e0-4581-8837-2339d21edd5a",
+    "updated_at": "2026-09-02T20:52:13.819978"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-04",
+    "score": 48,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "537fc482-e042-46df-a016-3a6b53a74007",
+    "updated_at": "2026-09-02T20:52:13.824911"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-05",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "b2cdd927-67f5-4540-9292-f22100e875d2",
+    "updated_at": "2026-09-02T20:52:13.828857"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-06",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "overdue tasks piling up"
+    ],
+    "id": "c14d3bca-485e-4509-9372-99636a01c7af",
+    "updated_at": "2026-09-02T20:52:13.832754"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-07",
+    "score": 20,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "56e1db2f-e302-4953-b359-536e066869a9",
+    "updated_at": "2026-09-02T20:52:13.836536"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-08",
+    "score": 18,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "0d4a1edb-bd48-4640-acc2-b006a4782bc7",
+    "updated_at": "2026-09-02T20:52:13.840672"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-09",
+    "score": 48,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "ac619931-0f64-4341-80f4-d243c2684ff0",
+    "updated_at": "2026-09-02T20:52:13.844675"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-10",
+    "score": 26,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "f26c7bcf-61dc-4740-ab55-a7a8dcba9240",
+    "updated_at": "2026-09-02T20:52:13.848555"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-11",
+    "score": 29,
+    "top_drivers": [
+      "high task count today",
+      "back-to-back overloaded days"
+    ],
+    "id": "fce04a1d-84e6-43d0-bacf-5010a4989dbe",
+    "updated_at": "2026-09-02T20:52:13.852884"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-12",
+    "score": 30,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "slow response times"
+    ],
+    "id": "4a6c18dd-6152-45ee-9568-652fb432d4c7",
+    "updated_at": "2026-09-02T20:52:13.858615"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-13",
+    "score": 24,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "3ff061e5-1a8b-47d6-86ed-c22a385d7572",
+    "updated_at": "2026-09-02T20:52:13.863021"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-14",
+    "score": 35,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "9b83a27a-ec23-4a72-b9ae-67a3bd1f07de",
+    "updated_at": "2026-09-02T20:52:13.867221"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-15",
+    "score": 27,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "641b57be-d9f2-4244-a365-e615687d3b6a",
+    "updated_at": "2026-09-02T20:52:13.871254"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-16",
+    "score": 24,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "8a17a812-1004-4874-9e61-b28ce84c3094",
+    "updated_at": "2026-09-02T20:52:13.875159"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-17",
+    "score": 29,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "56c05977-2793-46b6-a770-a4e2332c80ef",
+    "updated_at": "2026-09-02T20:52:13.878817"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-18",
+    "score": 23,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "a4159d2e-bf12-420f-b18e-806385669e7c",
+    "updated_at": "2026-09-02T20:52:13.882543"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-19",
+    "score": 20,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "73192972-510e-4b37-a379-373c10469d5a",
+    "updated_at": "2026-09-02T20:52:13.886822"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-20",
+    "score": 33,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "971adbb3-72bf-4cca-91de-201e7c2f68da",
+    "updated_at": "2026-09-02T20:52:13.891059"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-21",
+    "score": 37,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "09247314-55a2-479b-835b-26febc92ae5f",
+    "updated_at": "2026-09-02T20:52:13.895266"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-22",
+    "score": 23,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "0a3f1ea7-71ee-494e-9474-9cc3c60c7383",
+    "updated_at": "2026-09-02T20:52:13.899521"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-23",
+    "score": 34,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "1074a3b9-4fa3-424f-96d2-fcb43454a9bd",
+    "updated_at": "2026-09-02T20:52:13.904261"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-24",
+    "score": 35,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "30cadc3c-3925-4d17-a757-242fb68633de",
+    "updated_at": "2026-09-02T20:52:13.908220"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-25",
+    "score": 36,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "ef8ff795-d6fd-4ee5-a43d-4797fad03729",
+    "updated_at": "2026-09-02T20:52:13.911858"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-26",
+    "score": 29,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "858a813d-b955-4ec1-a7a9-8ebb61eb6cc4",
+    "updated_at": "2026-09-02T20:52:13.916391"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-27",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "2dae1e8d-8fa8-415b-9b1f-0d1358ebf8ca",
+    "updated_at": "2026-09-02T20:52:13.921229"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-28",
+    "score": 34,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "dabfbfc5-51b0-400b-9b9e-b724595a8617",
+    "updated_at": "2026-09-02T20:52:13.925559"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-29",
+    "score": 35,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "8728c7af-8fb9-4268-b7ea-8f393de4dc5f",
+    "updated_at": "2026-09-02T20:52:13.929663"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-30",
+    "score": 33,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "4cebd139-daf6-4261-8719-b13ad67f27be",
+    "updated_at": "2026-09-02T20:52:13.933707"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-07-31",
+    "score": 17,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "456ab16e-1348-480c-8a54-fcf472124bc5",
+    "updated_at": "2026-09-02T20:52:13.937720"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-01",
+    "score": 30,
+    "top_drivers": [
+      "low self check-in score",
+      "high task count today"
+    ],
+    "id": "1a4cacf1-3acd-4b25-946f-224a85a90243",
+    "updated_at": "2026-09-02T20:52:13.941810"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-02",
+    "score": 47,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "6dd134af-b9fa-4789-a18f-a4975712f740",
+    "updated_at": "2026-09-02T20:52:13.946027"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-03",
+    "score": 47,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "1d42b771-8554-4c02-98d5-a339cd5f2e48",
+    "updated_at": "2026-09-02T20:52:13.951088"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-04",
+    "score": 30,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "01ede7dc-fa52-4173-bdb7-fffced410121",
+    "updated_at": "2026-09-02T20:52:13.955467"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-05",
+    "score": 45,
+    "top_drivers": [
+      "late-night work activity",
+      "slow response times"
+    ],
+    "id": "24e61dec-761e-42d6-a684-30871ca143aa",
+    "updated_at": "2026-09-02T20:52:13.959463"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-06",
+    "score": 24,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "69a8fe6f-f466-42b7-b070-5c511774ac33",
+    "updated_at": "2026-09-02T20:52:13.963504"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-07",
+    "score": 24,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "992cd150-ef52-44b0-bdba-56a8b394664d",
+    "updated_at": "2026-09-02T20:52:13.967867"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-08",
+    "score": 29,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "450299d4-10f9-4f65-b8f3-7b2981bc7924",
+    "updated_at": "2026-09-02T20:52:13.972186"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-09",
+    "score": 46,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "bebfdb60-2e6e-4cb2-b825-359ad7c45402",
+    "updated_at": "2026-09-02T20:52:13.976842"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-10",
+    "score": 55,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "d88e724d-bc97-4ea7-bbb6-d15ad07ce11a",
+    "updated_at": "2026-09-02T20:52:13.981733"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-11",
+    "score": 38,
+    "top_drivers": [
+      "late-night work activity",
+      "overdue tasks piling up"
+    ],
+    "id": "79d2154f-da4f-40cd-8840-d324682135d6",
+    "updated_at": "2026-09-02T20:52:13.986072"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-12",
+    "score": 31,
+    "top_drivers": [
+      "slow response times",
+      "low self check-in score"
+    ],
+    "id": "dbd9bd17-90b5-4fde-a230-c09896418f17",
+    "updated_at": "2026-09-02T20:52:13.990222"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-13",
+    "score": 35,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "a95d36af-0ae2-4633-879b-2950c2d63557",
+    "updated_at": "2026-09-02T20:52:13.994446"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-14",
+    "score": 51,
+    "top_drivers": [
+      "late-night work activity",
+      "low self check-in score"
+    ],
+    "id": "452fb424-83c7-4392-a5d5-414c8bb06ca6",
+    "updated_at": "2026-09-02T20:52:13.999067"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-15",
+    "score": 32,
+    "top_drivers": [
+      "slow response times",
+      "low self check-in score"
+    ],
+    "id": "b10461f7-a0e7-47f5-b13d-13057b4db41b",
+    "updated_at": "2026-09-02T20:52:14.003396"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-16",
+    "score": 22,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "eac91566-3999-48b0-915c-7c43d0398c04",
+    "updated_at": "2026-09-02T20:52:14.007901"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-17",
+    "score": 20,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "f5506cc3-81ac-4b8e-b7c6-37cab5e718e9",
+    "updated_at": "2026-09-02T20:52:14.012258"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-18",
+    "score": 27,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "47d248a2-2b21-4c3a-99cf-d4d05f65be33",
+    "updated_at": "2026-09-02T20:52:14.016111"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-19",
+    "score": 20,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "95dca24c-e97d-403c-a027-8bb492902291",
+    "updated_at": "2026-09-02T20:52:14.021139"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-20",
+    "score": 29,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "fa610df6-d8d2-450c-920d-c5ff9b2a336a",
+    "updated_at": "2026-09-02T20:52:14.026741"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-21",
+    "score": 49,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "c6c6d65d-9ad2-4615-9e77-2f7f459a1768",
+    "updated_at": "2026-09-02T20:52:14.031617"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-22",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "962346b0-66cf-40ef-830d-9ba59d2e5cb0",
+    "updated_at": "2026-09-02T20:52:14.035618"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-23",
+    "score": 24,
+    "top_drivers": [
+      "overdue tasks piling up",
+      "slow response times"
+    ],
+    "id": "8ce3fbb5-848c-45c9-ab4f-b43fce506dac",
+    "updated_at": "2026-09-02T20:52:14.039739"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-24",
+    "score": 31,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "52dd56b7-ef1b-4a44-ae43-186e653608ac",
+    "updated_at": "2026-09-02T20:52:14.045580"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-25",
+    "score": 35,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "03a694f1-e882-403d-aa8b-127917934e80",
+    "updated_at": "2026-09-02T20:52:14.051623"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-26",
+    "score": 34,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "4ca31071-2b6d-4a8f-b1c3-bead05cc774f",
+    "updated_at": "2026-09-02T20:52:14.057295"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-27",
+    "score": 30,
+    "top_drivers": [
+      "high task count today",
+      "low self check-in score"
+    ],
+    "id": "f3b4b575-2807-4160-a9ee-1f7c7b04e9cd",
+    "updated_at": "2026-09-02T20:52:14.061576"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-28",
+    "score": 49,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "07f0a278-3036-40ed-aa61-fc447eed8811",
+    "updated_at": "2026-09-02T20:52:14.066057"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-29",
+    "score": 36,
+    "top_drivers": [
+      "slow response times",
+      "high task count today"
+    ],
+    "id": "22e88828-29cd-452f-97c7-191500a4ca25",
+    "updated_at": "2026-09-02T20:52:14.071371"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-30",
+    "score": 27,
+    "top_drivers": [
+      "low self check-in score",
+      "slow response times"
+    ],
+    "id": "e24990f9-c601-40b4-87c2-de84e86dd2c7",
+    "updated_at": "2026-09-02T20:52:14.076224"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-08-31",
+    "score": 39,
+    "top_drivers": [
+      "late-night work activity",
+      "high task count today"
+    ],
+    "id": "734f0b68-7942-4aa4-8765-818c47eab7ef",
+    "updated_at": "2026-09-02T20:52:14.080854"
+  },
+  {
+    "member_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "date": "2026-09-01",
+    "score": 25,
+    "top_drivers": [
+      "high task count today",
+      "slow response times"
+    ],
+    "id": "a00503f1-2832-4b19-99f9-1e0ea619e7ea",
+    "updated_at": "2026-09-02T20:52:14.085183"
+  },
+  {
+    "member_id": "3a215c86-01e6-4a21-b8cd-38ca9ee6315b",
     "date": "2026-09-02",
     "score": 70,
     "top_drivers": [
       "high task count today",
       "late-night work activity"
     ],
-    "id": "7fd51a23-aa80-4613-bb15-d9b85e4a5a05",
-    "updated_at": "2026-09-02T19:32:21.190562"
+    "id": "edc059b9-b1f6-4592-93e8-7183ff1052d0",
+    "updated_at": "2026-09-02T20:55:00.930686"
   }
 ]

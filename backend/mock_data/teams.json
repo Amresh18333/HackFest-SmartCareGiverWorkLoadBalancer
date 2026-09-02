@@ -1,9 +1,16 @@
 [
   {
     "name": "Care Team Alpha",
-    "manager_id": "8a5e8a16-b7c5-411b-bf96-2765057b3e26",
-    "join_code": "D9FD4C8D",
-    "id": "ee692739-5d27-4aeb-8488-4a6afed1ae86",
-    "created_at": "2026-09-02T19:32:21.100498"
+    "manager_id": "12e3ef41-b5a3-4464-8d75-f0a7a1355431",
+    "join_code": "DEMO1234",
+    "id": "508e4638-6c1e-4661-8c2b-8d552ff4130d",
+    "created_at": "2026-09-02T20:52:13.254872"
+  },
+  {
+    "name": "Care Team Alpha",
+    "manager_id": "4b09ec40-37f5-4891-9b8e-04c5df5a9bc7",
+    "join_code": "492E1F33",
+    "id": "436ef1c6-69df-4468-86db-824fbaf34ce0",
+    "created_at": "2026-09-02T20:55:00.792068"
   }
 ]
