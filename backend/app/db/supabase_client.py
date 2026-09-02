@@ -189,6 +189,8 @@ class MockTable:
                 item["updated_at"] = datetime.now().isoformat()
                 updated.append(item)
         self._save()
+        # Clear _update_data to prevent re-application on subsequent execute() calls
+        self._update_data = None
         class Result:
             def __init__(self, data):
                 self.data = data
@@ -197,7 +199,7 @@ class MockTable:
         return Result(updated)
     
     def execute(self):
-        if hasattr(self, '_update_data'):
+        if getattr(self, '_update_data', None) is not None:
             return self._execute_update()
         
         result = self._apply_filters(deepcopy(self.data))

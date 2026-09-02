@@ -1,16 +1,23 @@
 [
   {
     "name": "Care Team Alpha",
-    "manager_id": "12e3ef41-b5a3-4464-8d75-f0a7a1355431",
+    "manager_id": "22a74c07-78dd-47d5-9cfa-a798d0432aec",
     "join_code": "DEMO1234",
-    "id": "508e4638-6c1e-4661-8c2b-8d552ff4130d",
-    "created_at": "2026-09-02T20:52:13.254872"
+    "id": "87406f41-4308-40ef-9e2a-9061b75ce6b7",
+    "created_at": "2026-09-02T23:35:28.856944"
+  },
+  {
+    "name": "Test Team",
+    "manager_id": "cd6ff5ef-824a-485d-8945-8b754e6b1ec7",
+    "join_code": "1BD1D102",
+    "id": "33ed450e-0f0b-4e25-a482-61034e4919f3",
+    "created_at": "2026-09-02T23:37:00.411671"
   },
   {
     "name": "Care Team Alpha",
-    "manager_id": "4b09ec40-37f5-4891-9b8e-04c5df5a9bc7",
-    "join_code": "492E1F33",
-    "id": "436ef1c6-69df-4468-86db-824fbaf34ce0",
-    "created_at": "2026-09-02T20:55:00.792068"
+    "manager_id": "f69ee5a6-a936-4693-963f-e98eab6bd1f7",
+    "join_code": "E0B480C1",
+    "id": "95f105e3-e191-4bdf-b7dc-167ec67406ba",
+    "created_at": "2026-09-02T23:38:11.498285"
   }
 ]

@@ -121,9 +121,14 @@ def join_team(member_id: str, join_code: str) -> Dict:
     if not team:
         raise ValueError("Invalid join code")
     
+    # Get current member to preserve their role
+    member = get_member_by_id(member_id)
+    if not member:
+        raise ValueError("Member not found")
+    
     sb.table("team_members").update({
         "team_id": team["id"],
-        "role": "member"
+        "role": member.get("role", "member")
     }).eq("id", member_id).execute()
     
     return team

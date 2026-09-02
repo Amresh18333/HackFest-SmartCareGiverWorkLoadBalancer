@@ -1,152 +1,152 @@
 [
   {
     "title": "Patient intake review",
-    "assignee_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "assignee_id": "7e87a12d-fe9f-4e72-b94d-909927797508",
     "priority": "high",
     "status": "in_progress",
     "estimated_hours": 3.0,
     "due_date": "2026-09-03",
-    "id": "ebeee14b-eeca-4d63-97bd-6b6aed236635",
-    "updated_at": "2026-09-02T20:52:13.257439"
+    "id": "332d6cc7-2c3e-49e1-bef9-48b5e80b697e",
+    "updated_at": "2026-09-02T23:35:28.859116"
   },
   {
     "title": "Care plan updates (5 patients)",
-    "assignee_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "assignee_id": "7e87a12d-fe9f-4e72-b94d-909927797508",
     "priority": "high",
     "status": "todo",
     "estimated_hours": 4.0,
     "due_date": "2026-09-04",
-    "id": "c0f5e6db-db3f-4902-9226-5209e4ada4a4",
-    "updated_at": "2026-09-02T20:52:13.257444"
+    "id": "17a6672f-e7be-46ec-9e07-369d3cee19f0",
+    "updated_at": "2026-09-02T23:35:28.859120"
   },
   {
     "title": "Medication reconciliation",
-    "assignee_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "assignee_id": "7e87a12d-fe9f-4e72-b94d-909927797508",
     "priority": "medium",
     "status": "todo",
     "estimated_hours": 2.5,
     "due_date": "2026-09-05",
-    "id": "40c9e8fa-ccac-4135-9f30-9d2f54fc24c0",
-    "updated_at": "2026-09-02T20:52:13.257448"
+    "id": "b607e734-778c-4455-a91c-6df4ee17c6a4",
+    "updated_at": "2026-09-02T23:35:28.859124"
   },
   {
     "title": "Family communication log",
-    "assignee_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "assignee_id": "7e87a12d-fe9f-4e72-b94d-909927797508",
     "priority": "low",
     "status": "todo",
     "estimated_hours": 1.0,
     "due_date": "2026-09-07",
-    "id": "8221bc29-a506-4c8f-99d3-146cb9487c85",
-    "updated_at": "2026-09-02T20:52:13.257452"
+    "id": "6c28c838-f080-4cd2-989f-f5c7a6f1d9d8",
+    "updated_at": "2026-09-02T23:35:28.859127"
   },
   {
     "title": "Weekly schedule coordination",
-    "assignee_id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
+    "assignee_id": "7e87a12d-fe9f-4e72-b94d-909927797508",
     "priority": "medium",
     "status": "in_progress",
     "estimated_hours": 2.0,
     "due_date": "2026-09-03",
-    "id": "feaf5a8d-4187-4849-a3c9-7fb01d16485a",
-    "updated_at": "2026-09-02T20:52:13.257456"
+    "id": "aafedcf3-2c5c-4edc-8519-040faba9b0cf",
+    "updated_at": "2026-09-02T23:35:28.859131"
   },
   {
     "title": "New patient onboarding",
-    "assignee_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "assignee_id": "550ca9a8-628a-464d-b9c0-3c3e7aa45308",
     "priority": "high",
     "status": "in_progress",
     "estimated_hours": 3.0,
     "due_date": "2026-09-04",
-    "id": "02f7ec6d-b65c-47cf-98f4-152e74d20b25",
-    "updated_at": "2026-09-02T20:52:13.257460"
+    "id": "f6dc0358-b1ae-425e-9340-2668758a874f",
+    "updated_at": "2026-09-02T23:35:28.859135"
   },
   {
     "title": "Discharge planning",
-    "assignee_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "assignee_id": "550ca9a8-628a-464d-b9c0-3c3e7aa45308",
     "priority": "medium",
     "status": "todo",
     "estimated_hours": 2.0,
     "due_date": "2026-09-06",
-    "id": "1ecedec1-5c4a-444b-a70e-c9de7e1ca123",
-    "updated_at": "2026-09-02T20:52:13.257464"
+    "id": "4857e041-c145-4c68-bff9-05f0828026e5",
+    "updated_at": "2026-09-02T23:35:28.859139"
   },
   {
     "title": "Equipment requests",
-    "assignee_id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
+    "assignee_id": "550ca9a8-628a-464d-b9c0-3c3e7aa45308",
     "priority": "low",
     "status": "todo",
     "estimated_hours": 1.0,
     "due_date": "2026-09-09",
-    "id": "8a833748-555a-4798-889e-538d0906fb80",
-    "updated_at": "2026-09-02T20:52:13.257468"
+    "id": "668fec3c-7100-4f38-b3f7-50c8f5700b93",
+    "updated_at": "2026-09-02T23:35:28.859143"
   },
   {
     "title": "Documentation audit",
-    "assignee_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "assignee_id": "58b587bb-e53e-43d6-bf95-573dca246140",
     "priority": "low",
     "status": "todo",
     "estimated_hours": 2.0,
     "due_date": "2026-09-12",
-    "id": "928d533a-79d9-40fd-a2bd-e02bb388f094",
-    "updated_at": "2026-09-02T20:52:13.257472"
+    "id": "3024bb31-2b1c-47b7-bfbb-171145071f39",
+    "updated_at": "2026-09-02T23:35:28.859147"
   },
   {
     "title": "Training module completion",
-    "assignee_id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
+    "assignee_id": "58b587bb-e53e-43d6-bf95-573dca246140",
     "priority": "low",
     "status": "in_progress",
     "estimated_hours": 1.5,
     "due_date": "2026-09-16",
-    "id": "656ae9d3-ace2-4ccd-82ba-aceca580b2ea",
-    "updated_at": "2026-09-02T20:52:13.257477"
+    "id": "73c0cdc5-70de-49fd-bcc7-f89dedf567e7",
+    "updated_at": "2026-09-02T23:35:28.859151"
   },
   {
     "title": "Shift handoff prep",
-    "assignee_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "assignee_id": "1d72bb5e-ff7a-4cd0-b6cf-4e3641713ddc",
     "priority": "medium",
     "status": "in_progress",
     "estimated_hours": 2.0,
     "due_date": "2026-09-03",
-    "id": "48c597dd-ca38-41fa-95fd-22174be3bdd8",
-    "updated_at": "2026-09-02T20:52:13.257481"
+    "id": "d298ae03-2c6f-4228-a0e4-9c111e0c9fd2",
+    "updated_at": "2026-09-02T23:35:28.859156"
   },
   {
     "title": "Incident report review",
-    "assignee_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "assignee_id": "1d72bb5e-ff7a-4cd0-b6cf-4e3641713ddc",
     "priority": "high",
     "status": "todo",
     "estimated_hours": 1.5,
     "due_date": "2026-09-05",
-    "id": "b95424c8-31b7-4549-bc4b-235e0c52c985",
-    "updated_at": "2026-09-02T20:52:13.257486"
+    "id": "7e16fb63-c4e4-470a-bcd3-a3ed9015e8cc",
+    "updated_at": "2026-09-02T23:35:28.859160"
   },
   {
     "title": "Supply inventory check",
-    "assignee_id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
+    "assignee_id": "1d72bb5e-ff7a-4cd0-b6cf-4e3641713ddc",
     "priority": "low",
     "status": "todo",
     "estimated_hours": 1.0,
     "due_date": "2026-09-09",
-    "id": "4edf6c5d-c4ba-4032-a175-611217eff83c",
-    "updated_at": "2026-09-02T20:52:13.257492"
+    "id": "d882d385-1699-439f-8e85-abd519584333",
+    "updated_at": "2026-09-02T23:35:28.859165"
   },
   {
     "title": "Care team meeting prep",
-    "assignee_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "assignee_id": "d8e0e127-76a2-47c0-a811-205530d144bb",
     "priority": "medium",
     "status": "todo",
     "estimated_hours": 1.5,
     "due_date": "2026-09-04",
-    "id": "c54f8234-c81e-4b73-96df-95fe98dfcb94",
-    "updated_at": "2026-09-02T20:52:13.257497"
+    "id": "39e8ee7f-7783-49bf-ba95-22aa582e6e13",
+    "updated_at": "2026-09-02T23:35:28.859170"
   },
   {
     "title": "Patient education materials",
-    "assignee_id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
+    "assignee_id": "d8e0e127-76a2-47c0-a811-205530d144bb",
     "priority": "low",
     "status": "in_progress",
     "estimated_hours": 2.0,
     "due_date": "2026-09-07",
-    "id": "da002d4e-bfcf-4707-833e-a9b0a937723a",
-    "updated_at": "2026-09-02T20:52:13.257503"
+    "id": "85f24278-de12-4dcd-944c-8ce13c1c2f2f",
+    "updated_at": "2026-09-02T23:35:28.859175"
   }
 ]

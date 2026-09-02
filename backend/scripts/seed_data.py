@@ -24,7 +24,16 @@ MEMBERS = [
 
 def seed_members():
     print("Seeding team members...")
+    # First upsert to create new records
     res = sb.table("team_members").upsert(MEMBERS, on_conflict="name").execute()
+    # Then explicitly update role for all members to ensure they're members, not managers
+    for member in MEMBERS:
+        sb.table("team_members").update({"role": "member"}).eq("name", member["name"]).execute()
+    # Verify
+    res = sb.table("team_members").select("id,name,role").eq("role", "member").execute()
+    print(f"  Members with role=member: {len(res.data)}")
+    for m in res.data:
+        print(f"  - {m['name']}: role={m['role']}")
     return {m["name"]: m["id"] for m in res.data}
 
 def seed_tasks(member_ids):
@@ -213,9 +222,9 @@ def main():
     team = team_res.data[0]
     team_id = team["id"]
     
-    # Assign all members to the team
+    # Assign all members to the team with role=member
     for name, mid in member_ids.items():
-        sb.table("team_members").update({"team_id": team_id}).eq("id", mid).execute()
+        sb.table("team_members").update({"team_id": team_id, "role": "member"}).eq("id", mid).execute()
     
     # Assign manager to team
     sb.table("team_members").update({"team_id": team_id, "role": "manager"}).eq("id", manager_id).execute()

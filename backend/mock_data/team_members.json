@@ -4,78 +4,90 @@
     "avatar_initials": "AC",
     "timezone": "America/Los_Angeles",
     "role": "member",
-    "id": "558b7019-610a-4b2c-81b2-34cf36a8675c",
-    "updated_at": "2026-09-02T20:52:13.255220",
-    "team_id": "508e4638-6c1e-4661-8c2b-8d552ff4130d"
+    "id": "7e87a12d-fe9f-4e72-b94d-909927797508",
+    "updated_at": "2026-09-02T23:35:28.857253",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7"
   },
   {
     "name": "Jordan Kim",
     "avatar_initials": "JK",
     "timezone": "America/New_York",
     "role": "member",
-    "id": "b2a8b697-b02e-4430-ad3d-f4870815e75d",
-    "updated_at": "2026-09-02T20:52:13.255611",
-    "team_id": "508e4638-6c1e-4661-8c2b-8d552ff4130d"
+    "id": "550ca9a8-628a-464d-b9c0-3c3e7aa45308",
+    "updated_at": "2026-09-02T23:35:28.857623",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7"
   },
   {
     "name": "Sam Rivera",
     "avatar_initials": "SR",
     "timezone": "America/Chicago",
     "role": "member",
-    "id": "7edab4c1-92f9-4260-bf58-e0f35044da50",
-    "updated_at": "2026-09-02T20:52:13.255946",
-    "team_id": "508e4638-6c1e-4661-8c2b-8d552ff4130d"
+    "id": "58b587bb-e53e-43d6-bf95-573dca246140",
+    "updated_at": "2026-09-02T23:35:28.857918",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7"
   },
   {
     "name": "Taylor Moore",
     "avatar_initials": "TM",
     "timezone": "America/Denver",
     "role": "member",
-    "id": "7ab90aae-5473-4727-a0b4-7975453b08d8",
-    "updated_at": "2026-09-02T20:52:13.256357",
-    "team_id": "508e4638-6c1e-4661-8c2b-8d552ff4130d"
+    "id": "1d72bb5e-ff7a-4cd0-b6cf-4e3641713ddc",
+    "updated_at": "2026-09-02T23:35:28.858209",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7"
   },
   {
     "name": "Casey Brooks",
     "avatar_initials": "CB",
     "timezone": "America/Toronto",
     "role": "member",
-    "id": "bceaacbb-422c-43e3-894c-20ac77d3c729",
-    "updated_at": "2026-09-02T20:52:13.256715",
-    "team_id": "508e4638-6c1e-4661-8c2b-8d552ff4130d"
+    "id": "d8e0e127-76a2-47c0-a811-205530d144bb",
+    "updated_at": "2026-09-02T23:35:28.858498",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7"
   },
   {
     "name": "Demo Manager",
     "avatar_initials": "DM",
     "timezone": "America/Los_Angeles",
     "role": "manager",
-    "id": "12e3ef41-b5a3-4464-8d75-f0a7a1355431",
-    "created_at": "2026-09-02T20:52:13.254473",
-    "team_id": "508e4638-6c1e-4661-8c2b-8d552ff4130d",
-    "updated_at": "2026-09-02T20:52:13.257055"
+    "id": "22a74c07-78dd-47d5-9cfa-a798d0432aec",
+    "created_at": "2026-09-02T23:35:28.856610",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7",
+    "updated_at": "2026-09-02T23:35:28.858778"
+  },
+  {
+    "email": "mgr1788372420372@test.com",
+    "name": "Manager",
+    "avatar_initials": "MG",
+    "timezone": "UTC",
+    "password_hash": "pbkdf2_sha256$a718de47513160238a13e689fab65a72$b20da9f30ad41b5c3ef06502df67f41f1dc287a19d3a97920569580b765cbe87",
+    "role": "manager",
+    "id": "cd6ff5ef-824a-485d-8945-8b754e6b1ec7",
+    "created_at": "2026-09-02T23:37:00.411063",
+    "team_id": "87406f41-4308-40ef-9e2a-9061b75ce6b7",
+    "updated_at": "2026-09-02T23:37:00.419898"
   },
   {
     "email": "mgr@test.com",
     "name": "Manager",
     "avatar_initials": "MG",
     "timezone": "UTC",
-    "password_hash": "pbkdf2_sha256$ae64f1ae822bbdaa8981d04d851ebb06$30ee70f3f2f3522747a2e26af3926aeb314476cd70424a1068c4c3b5e7a6b96b",
-    "role": "member",
-    "id": "4b09ec40-37f5-4891-9b8e-04c5df5a9bc7",
-    "created_at": "2026-09-02T20:55:00.791165",
-    "team_id": "436ef1c6-69df-4468-86db-824fbaf34ce0",
-    "updated_at": "2026-09-02T20:55:00.938080"
+    "password_hash": "pbkdf2_sha256$b54f538d1a26098db75b354e924fb5d8$d9cb41a9e1b3f1b3dff6b910f46746398beff28a2f8e69b5cdd21a632cbb5266",
+    "role": "manager",
+    "id": "f69ee5a6-a936-4693-963f-e98eab6bd1f7",
+    "created_at": "2026-09-02T23:38:11.497576",
+    "team_id": "95f105e3-e191-4bdf-b7dc-167ec67406ba",
+    "updated_at": "2026-09-02T23:38:11.498704"
   },
   {
     "email": "mem@test.com",
     "name": "Member",
     "avatar_initials": "MB",
     "timezone": "UTC",
-    "password_hash": "pbkdf2_sha256$3db75780878cbb9c2d26790b60b68702$a4a48c3d71a471dc881cd15e88f3d28e6db4fc999fb53c2a4fe71beedda91813",
+    "password_hash": "pbkdf2_sha256$905c8192bb077a698e399a3eed6b3339$3e70ac7a8e43ee471ff803934b2ed27efe200b3df7f8ddb640e88042c96413d9",
     "role": "member",
-    "id": "3a215c86-01e6-4a21-b8cd-38ca9ee6315b",
-    "created_at": "2026-09-02T20:55:00.845433",
-    "team_id": "436ef1c6-69df-4468-86db-824fbaf34ce0",
-    "updated_at": "2026-09-02T20:55:00.848918"
+    "id": "5bd79804-3d84-47e2-a814-e8dc872e162c",
+    "created_at": "2026-09-02T23:38:11.565713",
+    "team_id": "95f105e3-e191-4bdf-b7dc-167ec67406ba",
+    "updated_at": "2026-09-02T23:38:11.568393"
   }
 ]
