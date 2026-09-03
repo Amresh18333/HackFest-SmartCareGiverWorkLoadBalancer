@@ -2,11 +2,6 @@ import os
 os.environ['SUPABASE_URL'] = 'https://sknhfirvgnkxinhysnzk.supabase.co'
 os.environ['SUPABASE_SERVICE_ROLE_KEY'] = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrbmhmaXJ2Z25reGluaHlzbnprIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4ODE3MTI1MywiZXhwIjoyMTAzNzQ3MjUzfQ.OzDkhfbIGPS5qCbe0NKElIqe9X0vTgqqzPUbkmNngVM'
 
-# Force reload
-import importlib
-import app.db.supabase_client as sc
-importlib.reload(sc)
-
 from app.db.supabase_client import get_supabase_admin
 sb = get_supabase_admin()
 print('Connected to Supabase!')
